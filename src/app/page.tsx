@@ -94,6 +94,24 @@ const benefits = [
   },
 ];
 
+const areaCards = [
+  {
+    title: "Cape Town CBD & Surrounds",
+    image: "/images/areas-western-cape.jpg",
+    locations: ["City Bowl · V&A Waterfront", "Atlantic Seaboard · Sea Point", "Green Point · De Waterkant"],
+  },
+  {
+    title: "Northern Suburbs",
+    image: "/images/areas-gauteng.jpg",
+    locations: ["Blouberg · Table View · Milnerton", "Durbanville · Bellville · Tyger Valley", "Parow · Goodwood · Brackenfell"],
+  },
+  {
+    title: "Southern Suburbs & Winelands",
+    image: "/images/areas-kzn.jpg",
+    locations: ["Claremont · Newlands · Constantia", "Stellenbosch · Paarl · Franschhoek", "Somerset West · Strand · Gordon's Bay"],
+  },
+];
+
 const processSteps = [
   { step: "01", title: "Free Consultation", detail: "We unpack the exact licence you need and timeline constraints." },
   { step: "02", title: "Document Preparation", detail: "Checklist, templates, and site plans handled with precision." },
@@ -133,7 +151,7 @@ const localBusinessSchema = {
     addressCountry: "ZA",
   },
   sameAs: ["https://www.facebook.com/", "https://www.linkedin.com/"],
-  areaServed: ["Western Cape", "Gauteng", "KwaZulu-Natal", "South Africa"],
+  areaServed: ["Cape Town", "Western Cape"],
 };
 
 const faqSchema = {
@@ -287,34 +305,23 @@ export default function Home() {
 
         <SectionShell
           eyebrow="Areas Served"
-          title="Operating nationwide with a Cape Town HQ"
-          description="Primary hubs in Western Cape, Gauteng, and KwaZulu-Natal with remote support for all nine provinces."
+          title="Serving greater Cape Town and the Western Cape"
+          description="From the City Bowl to the Winelands, we handle liquor licence applications across the region."
         >
           <div className="grid gap-8 lg:grid-cols-3">
-            <div>
-              <p className="text-sm uppercase tracking-[0.3em] text-brand-sand">Western Cape</p>
-              <ul className="mt-3 space-y-2 text-brand-cream/75">
-                <li>Cape Town CBD & Atlantic Seaboard</li>
-                <li>Northern & Southern Suburbs</li>
-                <li>Stellenbosch · Paarl · Franschhoek</li>
-              </ul>
-            </div>
-            <div>
-              <p className="text-sm uppercase tracking-[0.3em] text-brand-sand">Gauteng</p>
-              <ul className="mt-3 space-y-2 text-brand-cream/75">
-                <li>Johannesburg · Sandton · Rosebank</li>
-                <li>Pretoria · Centurion</li>
-                <li>Midrand · Fourways</li>
-              </ul>
-            </div>
-            <div>
-              <p className="text-sm uppercase tracking-[0.3em] text-brand-sand">KwaZulu-Natal & Beyond</p>
-              <ul className="mt-3 space-y-2 text-brand-cream/75">
-                <li>Durban · Umhlanga · Pietermaritzburg</li>
-                <li>Ballito · Richards Bay</li>
-                <li>Support for all remaining provinces</li>
-              </ul>
-            </div>
+            {areaCards.map((card) => (
+              <div key={card.title} className="space-y-4 rounded-3xl border border-white/10 bg-brand-graphite/30 p-4">
+                <div className="overflow-hidden rounded-3xl">
+                  <Image src={card.image} alt={card.title} width={420} height={320} className="h-48 w-full object-cover" />
+                </div>
+                <p className="text-sm uppercase tracking-[0.3em] text-brand-sand">{card.title}</p>
+                <ul className="space-y-2 text-sm text-brand-cream/75">
+                  {card.locations.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
         </SectionShell>
 
@@ -359,17 +366,17 @@ export default function Home() {
               {
                 quote:
                   "Beverly took over our relocation file and cleared objections within weeks. We reopened on schedule and never stopped trading.",
-                name: "Restaurant Group, Cape Town",
+                name: "Restaurant Group, Cape Town CBD",
               },
               {
                 quote:
-                  "Our national event series required multiple temporary licences. Every approval arrived early thanks to her relationships.",
-                name: "Festival Producer, Gauteng",
+                  "Our annual festival required multiple temporary licences. Every approval arrived early thanks to her relationships with the board.",
+                name: "Festival Producer, Stellenbosch",
               },
               {
                 quote:
                   "Attention to detail is unmatched. She flagged compliance gaps before the board did—zero surprises on hearing day.",
-                name: "Hotel Operator, KZN",
+                name: "Boutique Hotel, Franschhoek",
               },
             ].map((testimonial) => (
               <div key={testimonial.name} className="rounded-3xl border border-white/10 bg-brand-graphite/30 p-6">

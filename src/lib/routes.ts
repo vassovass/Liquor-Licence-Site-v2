@@ -32,22 +32,33 @@ export const footerNav = {
   ],
 };
 
-export const contactPoints: { label: string; value: string; href: string; helper?: string }[] = [
+export type ContactPoint = {
+  label: string;
+  value: string;
+  href: string;
+  helper?: string;
+  icon?: "phone" | "email" | "whatsapp";
+};
+
+export const contactPoints: ContactPoint[] = [
   {
     label: "Call",
     value: "+27 82 321 7722",
     href: "tel:+27823217722",
     helper: "Mon–Thu 09:00–17:00, Fri 09:00–15:00",
+    icon: "phone",
   },
   {
     label: "Email",
     value: "bajeursen.liquorlicences@gmail.com",
     href: "mailto:bajeursen.liquorlicences@gmail.com",
+    icon: "email",
   },
   {
     label: "WhatsApp",
     value: "+27 82 321 7722",
     href: "https://wa.me/27823217722",
+    icon: "whatsapp",
   },
 ];
 

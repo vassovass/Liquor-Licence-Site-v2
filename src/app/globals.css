@@ -111,12 +111,18 @@ a {
 
 .contact-strip {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   padding: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 24px;
   background: rgba(255, 255, 255, 0.02);
+}
+
+@media (max-width: 900px) {
+  .contact-strip {
+    grid-template-columns: 1fr;
+  }
 }
 
 .contact-chip {

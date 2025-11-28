@@ -2,28 +2,30 @@ import Image from "next/image";
 import Link from "next/link";
 
 type BrandMarkProps = {
+  /** Render smaller version without stacked text (already in logo) */
   compact?: boolean;
-  size?: "md" | "lg";
+  /** sm ~100px, md ~180px, lg ~220px (max crisp at 660px source) */
+  size?: "sm" | "md" | "lg";
+};
+
+const sizeMap: Record<NonNullable<BrandMarkProps["size"]>, { w: number; h: number }> = {
+  sm: { w: 100, h: 86 },
+  md: { w: 180, h: 154 },
+  lg: { w: 220, h: 188 },
 };
 
 export function BrandMark({ compact = false, size = "md" }: BrandMarkProps) {
-  const dimensions = size === "lg" ? 96 : 64;
+  const { w, h } = sizeMap[size];
   return (
-    <Link href="/" className="group inline-flex items-center gap-4 text-brand-cream no-underline">
+    <Link href="/" className="group inline-block">
       <Image
-        src="/images/logo-jb.png"
-        alt="JB Liquor Licence Consultants monogram"
-        width={dimensions}
-        height={dimensions}
-        priority={size === "lg"}
+        src="/images/logo-full.png"
+        alt="BJ Liquor Licence Consultant – Beverly Jeursen"
+        width={w}
+        height={h}
+        priority={size !== "sm"}
         className="h-auto w-auto"
       />
-      {!compact ? (
-        <div className="text-[11px] uppercase tracking-[0.4em] text-brand-sand">
-          <div>Liquor Licence</div>
-          <div>Consultant</div>
-        </div>
-      ) : null}
     </Link>
   );
 }
