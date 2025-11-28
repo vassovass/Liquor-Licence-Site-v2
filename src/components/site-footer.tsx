@@ -12,7 +12,7 @@ export function SiteFooter() {
     <footer className="bg-brand-charcoal text-brand-cream">
       <div className="container grid gap-10 border-t border-white/10 py-16 lg:grid-cols-[2fr_1fr_1fr_1fr]">
         <div className="space-y-6">
-          <BrandMark />
+          <BrandMark size="md" />
           <p className="max-w-sm text-sm text-brand-cream/70">
             20+ years navigating the South African Liquor Act with a 95% approval rate. Strategic guidance for every
             application, from new licences to relocations.

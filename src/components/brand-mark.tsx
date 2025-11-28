@@ -4,19 +4,17 @@ import Link from "next/link";
 import { assetPath } from "@/lib/asset-path";
 
 type BrandMarkProps = {
-  /** Render smaller version without stacked text (already in logo) */
-  compact?: boolean;
-  /** sm ~100px, md ~180px, lg ~220px (max crisp at 660px source) */
+  /** sm ~80px, md ~120px, lg ~180px (max crisp at 660px source) */
   size?: "sm" | "md" | "lg";
 };
 
 const sizeMap: Record<NonNullable<BrandMarkProps["size"]>, { w: number; h: number }> = {
-  sm: { w: 100, h: 86 },
-  md: { w: 180, h: 154 },
-  lg: { w: 220, h: 188 },
+  sm: { w: 80, h: 68 },   // Smaller for header
+  md: { w: 120, h: 103 }, // Medium for general use
+  lg: { w: 180, h: 154 }, // Large for footer/hero
 };
 
-export function BrandMark({ compact = false, size = "md" }: BrandMarkProps) {
+export function BrandMark({ size = "sm" }: BrandMarkProps) {
   const { w, h } = sizeMap[size];
   return (
     <Link href="/" className="group inline-block">

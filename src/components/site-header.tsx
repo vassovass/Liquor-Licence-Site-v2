@@ -15,7 +15,7 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 border-b border-white/10 bg-brand-charcoal/90 backdrop-blur supports-[backdrop-filter]:bg-brand-charcoal/70">
       <div className="container flex items-center justify-between gap-6 py-4">
-        <BrandMark />
+        <BrandMark size="sm" />
 
         <nav aria-label="Primary" className="hidden gap-6 text-xs uppercase tracking-[0.2em] text-brand-cream lg:flex">
           {primaryNav.map((item) => {
