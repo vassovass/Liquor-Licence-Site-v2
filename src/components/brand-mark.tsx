@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import { assetPath } from "@/lib/asset-path";
+
 type BrandMarkProps = {
   /** Render smaller version without stacked text (already in logo) */
   compact?: boolean;
@@ -19,7 +21,7 @@ export function BrandMark({ compact = false, size = "md" }: BrandMarkProps) {
   return (
     <Link href="/" className="group inline-block">
       <Image
-        src="/images/logo-full.png"
+        src={assetPath("/images/logo-full.png")}
         alt="BJ Liquor Licence Consultant – Beverly Jeursen"
         width={w}
         height={h}

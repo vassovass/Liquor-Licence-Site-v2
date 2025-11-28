@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import { assetPath } from "@/lib/asset-path";
 import { CTAButton } from "@/components/cta-button";
 import { ContactStrip } from "@/components/contact-strip";
 import { SectionShell } from "@/components/section-shell";
@@ -97,17 +98,17 @@ const benefits = [
 const areaCards = [
   {
     title: "Cape Town CBD & Surrounds",
-    image: "/images/areas-western-cape.jpg",
+    image: assetPath("/images/areas-western-cape.jpg"),
     locations: ["City Bowl · V&A Waterfront", "Atlantic Seaboard · Sea Point", "Green Point · De Waterkant"],
   },
   {
     title: "Northern Suburbs",
-    image: "/images/areas-gauteng.jpg",
+    image: assetPath("/images/areas-gauteng.jpg"),
     locations: ["Blouberg · Table View · Milnerton", "Durbanville · Bellville · Tyger Valley", "Parow · Goodwood · Brackenfell"],
   },
   {
     title: "Southern Suburbs & Winelands",
-    image: "/images/areas-kzn.jpg",
+    image: assetPath("/images/areas-kzn.jpg"),
     locations: ["Claremont · Newlands · Constantia", "Stellenbosch · Paarl · Franschhoek", "Somerset West · Strand · Gordon's Bay"],
   },
 ];
@@ -201,7 +202,7 @@ export default function Home() {
           <div className="relative">
             <div className="absolute -left-10 top-10 hidden h-64 w-64 opacity-60 blur-2xl lg:block">
               <Image
-                src="/images/hero-swirl.png"
+                src={assetPath("/images/hero-swirl.png")}
                 alt=""
                 width={400}
                 height={400}
@@ -211,7 +212,7 @@ export default function Home() {
             </div>
             <div className="relative overflow-hidden rounded-[40px] border border-white/10 bg-brand-graphite">
               <Image
-                src="/images/hero-beverly.jpg"
+                src={assetPath("/images/hero-beverly.jpg")}
                 alt="Beverly Jeursen assisting a client"
                 width={960}
                 height={1200}
@@ -233,7 +234,7 @@ export default function Home() {
           <div className="grid gap-10 lg:grid-cols-[0.4fr_1fr]">
             <div className="rounded-3xl border border-white/10 bg-brand-graphite/50 p-6 text-center">
               <Image
-                src="/images/authority-crest.png"
+                src={assetPath("/images/authority-crest.png")}
                 alt="Authority recognition crest"
                 width={160}
                 height={160}
