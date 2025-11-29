@@ -12,6 +12,7 @@ import { Separator } from "@/components/separator";
 import { Accordion } from "@/components/accordion";
 import { Card } from "@/components/card";
 import { Tabs } from "@/components/tabs";
+import { StatsBar } from "@/components/stats-bar";
 import {
   Building2,
   Hammer,
@@ -62,6 +63,16 @@ export default function AlterLicensedPremisesPage() {
         />
 
         <div className="mb-24">
+          <StatsBar
+            stats={[
+              { value: "95%", label: "Approval Rate", helper: "Across all provinces" },
+              { value: "20+ yrs", label: "Experience" },
+              { value: "10", label: "Licence Types" },
+            ]}
+          />
+        </div>
+
+        <div className="mb-24">
           <SectionShell
             eyebrow="Understanding"
             title="What is Section 53?"
@@ -106,6 +117,17 @@ export default function AlterLicensedPremisesPage() {
               </div>
             </div>
           </SectionShell>
+        </div>
+
+        <div className="mb-24">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <CTAButton href="/contact" variant="primary" size="lg">
+              Get Free Consultation
+            </CTAButton>
+            <CTAButton href="tel:+27823217722" variant="secondary" size="lg">
+              Call +27 82 321 7722
+            </CTAButton>
+          </div>
         </div>
 
         <Separator className="my-24" />
@@ -241,6 +263,14 @@ export default function AlterLicensedPremisesPage() {
             <Callout variant="warning" title="Critical" className="mt-8 max-w-3xl mx-auto">
               Missing or incomplete plans are the #1 cause of delays. We ensure your application is complete.
             </Callout>
+            <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center">
+              <CTAButton href="/contact" variant="primary" size="lg">
+                Get Expert Help
+              </CTAButton>
+              <CTAButton href="tel:+27823217722" variant="secondary">
+                Call for Assessment
+              </CTAButton>
+            </div>
           </SectionShell>
         </div>
 
@@ -556,7 +586,7 @@ export default function AlterLicensedPremisesPage() {
                             <span>Focus on compliance with building regs</span>
                           </li>
                           <li className="flex items-start gap-3">
-                            <span className="shrink-0 mt-1.5 w-1.5 rounded-full bg-brand-sand" />
+                            <span className="shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-brand-sand" />
                             <span>Metro vs rural variations</span>
                           </li>
                           <li className="flex items-start gap-3">

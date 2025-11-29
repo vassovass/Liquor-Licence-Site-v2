@@ -2,12 +2,25 @@ export type NavItem = {
   label: string;
   href: string;
   external?: boolean;
+  children?: NavItem[];
 };
 
 export const primaryNav: NavItem[] = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
-  { label: "Services", href: "/services" },
+  {
+    label: "Services",
+    href: "/services",
+    children: [
+      { label: "New Liquor Licence", href: "/services/new-liquor-licence-application" },
+      { label: "Transfer of Licence", href: "/services/transfer-liquor-licence" },
+      { label: "Temporary Licence", href: "/services/temporary-liquor-licence" },
+      { label: "Event Licence", href: "/services/event-liquor-licence" },
+      { label: "Alter Licensed Premises", href: "/services/alter-licensed-premises" },
+      { label: "Extended Trading Hours", href: "/services/extension-trading-hours" },
+      { label: "View All Services", href: "/services" },
+    ],
+  },
   { label: "Areas Served", href: "/areas-served" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },

@@ -556,7 +556,7 @@ export default function AlterLicensedPremisesPage() {
                             <span>Focus on compliance with building regs</span>
                           </li>
                           <li className="flex items-start gap-3">
-                            <span className="shrink-0 mt-1.5 w-1.5 rounded-full bg-brand-sand" />
+                            <span className="shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-brand-sand" />
                             <span>Metro vs rural variations</span>
                           </li>
                           <li className="flex items-start gap-3">

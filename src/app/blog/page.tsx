@@ -1,6 +1,10 @@
 import Link from "next/link";
 import { Metadata } from "next";
+import { Breadcrumb } from "@/components/breadcrumb";
 import { SectionShell } from "@/components/section-shell";
+import { Grid } from "@/components/grid";
+import { Card } from "@/components/card";
+import { CTAButton } from "@/components/cta-button";
 import { getAllSlugs, getMarkdownContent } from "@/lib/markdown";
 
 export const metadata: Metadata = {
@@ -12,46 +16,73 @@ export default function BlogIndexPage() {
   const slugs = getAllSlugs("blog");
   const posts = slugs
     .map((slug) => {
-        const doc = getMarkdownContent("blog", slug);
-        return doc;
+      const doc = getMarkdownContent("blog", slug);
+      return doc;
     })
     .filter((post): post is NonNullable<typeof post> => !!post);
 
   return (
     <div className="bg-brand-charcoal text-brand-cream min-h-screen pt-24 pb-20">
       <div className="container">
+        <div className="mb-8">
+          <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Blog" }]} />
+        </div>
+
         <SectionShell
           eyebrow="Blog"
           title="Liquor Licence Insights"
-          description="Expert advice, guides, and industry news."
+          description="Expert advice, guides, and industry news from Beverly Jeursen. Stay informed about liquor licencing in South Africa."
         >
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mt-8">
-            {posts.map((post) => (
-              <Link 
-                key={post.slug} 
-                href={`/blog/${post.slug}`}
-                className="group flex flex-col rounded-3xl border border-white/10 bg-brand-graphite/30 p-6 transition hover:border-brand-sand"
-              >
-                <div className="mb-4">
-                    <span className="text-xs uppercase tracking-widest text-brand-sand">
-                        {post.metadata.category || "Guide"}
-                    </span>
-                </div>
-                <h3 className="text-xl font-serif mb-3 group-hover:text-brand-sand transition-colors">
-                    {post.title}
-                </h3>
-                <p className="text-sm text-brand-cream/70 line-clamp-3 mb-6 flex-1">
-                    {post.metadata.meta_description}
+          {posts.length === 0 ? (
+            <div className="text-center py-16">
+              <p className="text-brand-cream/70 mb-6">No blog posts available yet.</p>
+              <CTAButton href="/contact" variant="primary">
+                Get Expert Advice
+              </CTAButton>
+            </div>
+          ) : (
+            <>
+              <Grid columns={3} className="mt-12">
+                {posts.map((post) => (
+                  <Link key={post.slug} href={`/blog/${post.slug}`} className="group">
+                    <Card
+                      title={post.title}
+                      subtitle={post.metadata.category || "Guide"}
+                      className="h-full transition-all duration-300 hover:border-brand-sand"
+                    >
+                      <p className="text-sm text-brand-cream/70 line-clamp-3 mb-4">
+                        {post.metadata.meta_description || "Read more about this topic..."}
+                      </p>
+                      <div className="flex items-center justify-between mt-6 pt-4 border-t border-white/10">
+                        <span className="text-xs text-brand-cream/50">
+                          {post.metadata.publication_date || "Recently Updated"}
+                        </span>
+                        <span className="text-xs uppercase tracking-[0.35em] text-brand-sand group-hover:text-brand-cream transition-colors">
+                          Read More →
+                        </span>
+                      </div>
+                    </Card>
+                  </Link>
+                ))}
+              </Grid>
+
+              <div className="mt-16 text-center">
+                <p className="text-brand-cream/70 mb-6">
+                  Need expert guidance on your liquor licence application? Get personalized advice from Beverly Jeursen.
                 </p>
-                <div className="text-xs text-brand-cream/50">
-                    {post.metadata.publication_date || "Recently Updated"}
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <CTAButton href="/contact" variant="primary" size="lg">
+                    Get Free Consultation
+                  </CTAButton>
+                  <CTAButton href="/services" variant="secondary">
+                    View All Services
+                  </CTAButton>
                 </div>
-              </Link>
-            ))}
-          </div>
+              </div>
+            </>
+          )}
         </SectionShell>
       </div>
     </div>
   );
 }
-
