@@ -13,6 +13,7 @@ import { Review } from "@/components/review";
 import { FeatureHighlight } from "@/components/feature-highlight";
 import { Counter } from "@/components/counter";
 import { Separator } from "@/components/separator";
+import { StatsBar } from "@/components/stats-bar";
 import { FileText, ShieldCheck, Clock, Calendar, Star, Globe, Zap, Award, Code, Layers, Users, Settings, CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -41,6 +42,57 @@ export default function ElementsPage() {
                         ctaHref="#"
                         imageSrc="/images/hero-beverly.jpg" // Placeholder using existing image
                     />
+                </div>
+
+                {/* Standard Lists (Styled) */}
+                <div className="border-t border-white/10 pt-12">
+                    <h2 className="text-3xl font-serif mb-8">Standard Lists</h2>
+                    <p className="text-brand-cream/60 mb-8">Enhanced styling for standard ordered and unordered lists.</p>
+                    <div className="grid gap-12 md:grid-cols-2">
+                        <div>
+                            <h4 className="text-sm uppercase tracking-widest text-brand-sand mb-6">Unordered List (Card Style)</h4>
+                            <div className="bg-brand-graphite/30 rounded-2xl p-6 border border-white/5">
+                                <ul className="space-y-3 list-none pl-0 m-0">
+                                    <li className="flex items-start gap-3 text-brand-cream/80 text-base">
+                                        <span className="shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-brand-sand" />
+                                        <span className="leading-relaxed">First item in the list with custom bullet</span>
+                                    </li>
+                                    <li className="flex items-start gap-3 text-brand-cream/80 text-base">
+                                        <span className="shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-brand-sand" />
+                                        <span className="leading-relaxed">Second item showing consistent spacing</span>
+                                    </li>
+                                    <li className="flex items-start gap-3 text-brand-cream/80 text-base">
+                                        <span className="shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-brand-sand" />
+                                        <span className="leading-relaxed">Third item for demonstration</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 className="text-sm uppercase tracking-widest text-brand-sand mb-6">Ordered List (Grid Style)</h4>
+                            <ol className="grid grid-cols-1 sm:grid-cols-2 gap-4 list-none p-0 
+                                [&>li]:bg-brand-graphite/20 [&>li]:border [&>li]:border-white/5 [&>li]:rounded-3xl [&>li]:p-6 [&>li]:h-full
+                                [&>li_strong]:block [&>li_strong]:text-lg [&>li_strong]:font-serif [&>li_strong]:text-brand-cream [&>li_strong]:mb-2
+                                [&>li]:text-sm [&>li]:text-brand-cream/70">
+                                <li>
+                                    <strong>Step 1: Planning</strong>
+                                    Define your goals and requirements clearly before starting.
+                                </li>
+                                <li>
+                                    <strong>Step 2: Execution</strong>
+                                    Implement the strategy with precision and attention to detail.
+                                </li>
+                                <li>
+                                    <strong>Step 3: Review</strong>
+                                    Analyze performance and optimize for better results.
+                                </li>
+                                <li>
+                                    <strong>Step 4: Launch</strong>
+                                    Go live and monitor the initial feedback.
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
                 </div>
 
                 {/* Grid Layouts & Content Boxes */}
@@ -118,17 +170,34 @@ export default function ElementsPage() {
                     </Grid>
                 </div>
 
-                {/* Counters */}
+                {/* Counters & Stats */}
                 <div className="border-t border-white/10 pt-12">
-                    <h2 className="text-3xl font-serif mb-8">Counters</h2>
+                    <h2 className="text-3xl font-serif mb-8">Counters & Stats</h2>
                     <p className="text-brand-cream/60 mb-8">Displaying key metrics.</p>
-                    <div className="bg-brand-graphite/30 rounded-3xl p-8">
-                        <Grid columns={4}>
-                            <Counter value="20+" label="Years Experience" />
-                            <Counter value="95%" label="Approval Rate" />
-                            <Counter value="1000+" label="Licences Issued" />
-                            <Counter value="24/7" label="Support" />
-                        </Grid>
+                    
+                    <div className="space-y-12">
+                        <div>
+                            <h4 className="text-sm uppercase tracking-widest text-brand-sand mb-6">Stats Bar (Home Page Component)</h4>
+                            <StatsBar 
+                                stats={[
+                                    { value: "95%", label: "Approval Rate", helper: "Across all provinces" },
+                                    { value: "20+ yrs", label: "Experience" },
+                                    { value: "10", label: "Licence Types" },
+                                ]} 
+                            />
+                        </div>
+
+                        <div>
+                            <h4 className="text-sm uppercase tracking-widest text-brand-sand mb-6">Simple Counters</h4>
+                            <div className="bg-brand-graphite/30 rounded-3xl p-8">
+                                <Grid columns={4}>
+                                    <Counter value="20+" label="Years Experience" />
+                                    <Counter value="95%" label="Approval Rate" />
+                                    <Counter value="1000+" label="Licences Issued" />
+                                    <Counter value="24/7" label="Support" />
+                                </Grid>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

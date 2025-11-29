@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils";
 import { CTAButton } from "./cta-button";
 import Image from "next/image";
 import { assetPath } from "@/lib/asset-path";
+import { ImageIcon } from "lucide-react";
 
 interface FeatureHighlightProps {
   title: string;
@@ -37,18 +38,22 @@ export function FeatureHighlight({
           </CTAButton>
         )}
       </div>
-      {imageSrc && (
-        <div className="flex-1 w-full h-64 md:h-auto relative min-h-[300px] bg-black/10">
-           {/* In a real app, use Next/Image with fill. For now, placeholder or img tag */}
-           <div className="absolute inset-0 flex items-center justify-center text-brand-charcoal/20">
-             {/* Placeholder if image fails */}
-             <span className="font-serif text-6xl opacity-20">Feature</span>
+      <div className="flex-1 w-full h-64 md:h-auto relative min-h-[300px] md:min-h-[400px] bg-brand-charcoal/5 flex items-center justify-center">
+         {imageSrc ? (
+           <Image 
+             src={assetPath(imageSrc)} 
+             alt="" 
+             fill 
+             className="object-cover" 
+             sizes="(max-width: 768px) 100vw, 50vw"
+           />
+         ) : (
+           <div className="flex flex-col items-center text-brand-charcoal/20">
+             <ImageIcon className="h-16 w-16 mb-2 opacity-20" />
+             <span className="font-serif text-xl font-medium opacity-40 uppercase tracking-widest">Image Placeholder</span>
            </div>
-           {/* If you have actual images, uncomment below */}
-           {/* <Image src={assetPath(imageSrc)} alt="" fill className="object-cover" /> */}
-        </div>
-      )}
+         )}
+      </div>
     </div>
   );
 }
-

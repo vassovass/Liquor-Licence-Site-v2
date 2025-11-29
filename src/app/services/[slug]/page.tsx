@@ -5,6 +5,7 @@ import { SectionShell } from "@/components/section-shell";
 import { CTAButton } from "@/components/cta-button";
 import { MarkdownRenderer } from "@/components/markdown-renderer";
 import { getAllSlugs, getMarkdownContent } from "@/lib/markdown";
+import { Breadcrumb } from "@/components/breadcrumb";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -48,11 +49,14 @@ export default async function ServicePage({ params }: PageProps) {
   return (
     <div className="bg-brand-charcoal text-brand-cream min-h-screen pt-24 pb-20">
       <div className="article-container">
-        {/* Breadcrumb-ish or Back Link */}
+        {/* Breadcrumb */}
         <div className="mb-8">
-            <CTAButton href="/services" variant="ghost" className="pl-0 hover:pl-2 transition-all">
-                ← Back to Services
-            </CTAButton>
+            <Breadcrumb 
+                items={[
+                    { label: "Services", href: "/services" },
+                    { label: doc.title }
+                ]} 
+            />
         </div>
 
         <SectionShell
@@ -78,4 +82,3 @@ export default async function ServicePage({ params }: PageProps) {
     </div>
   );
 }
-
