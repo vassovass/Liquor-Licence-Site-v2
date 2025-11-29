@@ -7,6 +7,7 @@ import { Grid } from "@/components/grid";
 import { Card } from "@/components/card";
 import { Callout } from "@/components/callout";
 import { FeatureHighlight } from "@/components/feature-highlight";
+import { ContactForm } from "@/components/contact-form";
 import { Phone, Mail, MessageCircle, MapPin, Clock, CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -124,90 +125,7 @@ export default function ContactPage() {
             </div>
 
             <div id="contact-form">
-              <Card title="Request Free Consultation" className="h-full">
-                <form className="space-y-6">
-                  <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                    <div className="space-y-2">
-                      <label htmlFor="name" className="text-sm font-medium text-brand-sand block">
-                        Name *
-                      </label>
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        required
-                        className="w-full rounded-lg border border-white/10 bg-brand-charcoal p-3 text-brand-cream placeholder-white/30 focus:border-brand-sand focus:outline-none transition-colors"
-                        placeholder="Your Name"
-                      />
-                    </div>
-                    <div className="space-y-2">
-                      <label htmlFor="phone" className="text-sm font-medium text-brand-sand block">
-                        Phone *
-                      </label>
-                      <input
-                        type="tel"
-                        id="phone"
-                        name="phone"
-                        required
-                        className="w-full rounded-lg border border-white/10 bg-brand-charcoal p-3 text-brand-cream placeholder-white/30 focus:border-brand-sand focus:outline-none transition-colors"
-                        placeholder="082 123 4567"
-                      />
-                    </div>
-                  </div>
-                  <div className="space-y-2">
-                    <label htmlFor="email" className="text-sm font-medium text-brand-sand block">
-                      Email *
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      required
-                      className="w-full rounded-lg border border-white/10 bg-brand-charcoal p-3 text-brand-cream placeholder-white/30 focus:border-brand-sand focus:outline-none transition-colors"
-                      placeholder="you@example.com"
-                    />
-                  </div>
-                  <div className="space-y-2">
-                    <label htmlFor="service" className="text-sm font-medium text-brand-sand block">
-                      Service Needed
-                    </label>
-                    <select
-                      id="service"
-                      name="service"
-                      className="w-full rounded-lg border border-white/10 bg-brand-charcoal p-3 text-brand-cream focus:border-brand-sand focus:outline-none transition-colors"
-                    >
-                      <option value="">Select a service...</option>
-                      <option value="new-licence">New Liquor Licence Application</option>
-                      <option value="transfer">Transfer of Liquor Licence</option>
-                      <option value="temporary">Temporary Licence</option>
-                      <option value="event">Event Licence</option>
-                      <option value="alter">Alter Licensed Premises</option>
-                      <option value="extension">Extended Trading Hours</option>
-                      <option value="other">Other</option>
-                    </select>
-                  </div>
-                  <div className="space-y-2">
-                    <label htmlFor="message" className="text-sm font-medium text-brand-sand block">
-                      How can we help? *
-                    </label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      rows={5}
-                      required
-                      className="w-full rounded-lg border border-white/10 bg-brand-charcoal p-3 text-brand-cream placeholder-white/30 focus:border-brand-sand focus:outline-none transition-colors resize-none"
-                      placeholder="Tell us about your business and what you need..."
-                    ></textarea>
-                  </div>
-                  <CTAButton href="#" variant="primary" className="w-full justify-center" type="submit">
-                    Send Request
-                  </CTAButton>
-                  <p className="text-xs text-center text-brand-cream/50">
-                    We respect your privacy. Your details are kept confidential and will only be used to contact you
-                    about your enquiry.
-                  </p>
-                </form>
-              </Card>
+              <ContactForm />
             </div>
           </Grid>
         </div>
