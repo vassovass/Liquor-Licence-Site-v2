@@ -14,7 +14,7 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-white/10 bg-brand-charcoal/90 backdrop-blur supports-[backdrop-filter]:bg-brand-charcoal/70">
-      <div className="container flex items-center justify-between gap-6 py-4">
+      <div className="container flex h-[70px] items-center justify-between gap-6">
         <BrandMark size="sm" />
 
         <nav aria-label="Primary" className="hidden gap-6 text-xs uppercase tracking-[0.2em] text-brand-cream lg:flex">
@@ -35,14 +35,15 @@ export function SiteHeader() {
           })}
         </nav>
 
-        <CTAButton href="/contact" variant="secondary" className="hidden lg:inline-flex">
-          Book Consultation
-        </CTAButton>
-        <CTAButton href="/contact" className="lg:hidden">
-          Contact
-        </CTAButton>
+        <div className="flex items-center gap-4">
+            <CTAButton href="/contact" variant="secondary" className="hidden lg:inline-flex">
+              Book Consultation
+            </CTAButton>
+            <CTAButton href="/contact" className="lg:hidden">
+              Contact
+            </CTAButton>
+        </div>
       </div>
     </header>
   );
 }
-

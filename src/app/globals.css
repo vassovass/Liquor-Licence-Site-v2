@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 :root {
   --brand-charcoal: #050505;
@@ -36,6 +37,11 @@ a {
 
 .container {
   width: min(1200px, 100% - 2rem);
+  margin-inline: auto;
+}
+
+.article-container {
+  width: min(1200px, 100% - 2rem); /* Changed from 440px to match homepage width */
   margin-inline: auto;
 }
 
