@@ -1,4 +1,4 @@
-type Stat = {
+export type Stat = {
   value: string;
   label: string;
   helper?: string;
