@@ -1,4 +1,5 @@
 "use client";
+/// <reference types='react' />
 
 import type { JSX } from "react";
 
