@@ -1,14 +1,14 @@
-# Alter Licensed Premises (Section 53)
+# Alter Licensed Premises in Cape Town (Section 53)
 
 **SEO Title:** Alter Licensed Premises Section 53 | Renovation Consent | Cape Town
-**Meta Description:** Apply for consent to alter, renovate or extend licensed premises in South Africa. Section 53 expert. Legal compliance for renovations. +27 82-321-7722
-**Focus Keyword:** alter licensed premises
-**Secondary Keywords:** section 53 liquor licence, renovate licensed premises, extend licensed premises south africa, alteration consent
+**Meta Description:** Apply for consent to alter, renovate or extend licensed premises in Cape Town. Section 53 expert keeping renovations legal across the CBD, Atlantic Seaboard, and Winelands. +27 82-321-7722
+**Focus Keyword:** alter licensed premises cape town
+**Secondary Keywords:** section 53 liquor licence, renovate licensed premises Cape Town, extend licensed premises south africa, alteration consent
 
 ---
 
 ## Page Heading (H1)
-**Consent to Alter Licensed Premises - Section 53**
+**Consent to Alter Licensed Premises in Cape Town - Section 53**
 
 ---
 
@@ -16,14 +16,18 @@
 
 Planning renovations, extensions, or alterations to your licensed restaurant, pub, or bottle store? Any structural or significant changes to licensed premises require official consent under Section 53 of the South African Liquor Act.
 
+We handle Section 53 applications for Cape Town CBD cocktail bars, Sea Point eateries, Durbanville wine shops, and Stellenbosch tasting rooms so your upgrades never jeopardize your liquor license in Cape Town.
+
 Operating with unauthorized alterations can result in licence suspension, fines, or even licence revocation. With over 20 years of experience, **Beverly Jeursen** ensures your alteration application is approved legally and efficiently.
+
+When upgrades trigger a relocation or extra storage, we coordinate related filings such as the [Removal of Licence in Cape Town](/services/removal-of-licence) for new premises or the [Store Liquor Application in Cape Town](/services/store-liquor-application) so your back-of-house logistics stay compliant during construction.
 
 ---
 
 ## What is Section 53?
 
 ### Heading (H2)
-**Understanding Licensed Premises Alteration Requirements**
+**Understanding Licensed Premises Alteration Requirements in Cape Town**
 
 Section 53 of the Liquor Act requires licence holders to obtain **prior consent from the Liquor Licencing Authority** before making any alterations to licensed premises.
 
@@ -43,7 +47,7 @@ This applies to:
 ## Types of Alterations Requiring Consent
 
 ### Heading (H2)
-**What Alterations Need Section 53 Approval?**
+**What Alterations Need Section 53 Approval in Cape Town?**
 
 ### Structural Changes (Section 53(1)(a))
 - Building extensions

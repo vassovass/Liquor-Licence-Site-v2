@@ -1,14 +1,14 @@
-# New Liquor Licence Application (Section 36)
+# New Liquor Licence Application in Cape Town (Section 36)
 
 **SEO Title:** New Liquor Licence Application Cape Town | Section 36 | Expert Consultant
-**Meta Description:** Apply for a new liquor licence in South Africa with expert help. Section 36 applications for restaurants, pubs, bottle stores. 20+ years experience. Call +27 82-321-7722
-**Focus Keyword:** new liquor licence application
-**Secondary Keywords:** section 36 liquor licence, apply for liquor licence cape town, liquor licence application south africa
+**Meta Description:** Apply for a new liquor license in Cape Town with expert help. Section 36 applications for restaurants, pubs, bottle stores, and wine bars across the Western Cape. 20+ years experience.
+**Focus Keyword:** new liquor licence application cape town
+**Secondary Keywords:** new liquor license in Cape Town, section 36 liquor licence, apply for liquor licence cape town
 
 ---
 
 ## Page Heading (H1)
-**New Liquor Licence Application in South Africa - Section 36**
+**New Liquor Licence Application in Cape Town - Section 36**
 
 ---
 
@@ -16,7 +16,11 @@
 
 Starting a new business that will sell alcohol? Whether you're opening a restaurant, pub, tavern, bottle store, or any establishment that serves or sells liquor, you need a valid liquor licence in terms of Section 36 of the Liquor Act.
 
+If you're looking for a **new liquor license in Cape Town** for venues in the CBD, Atlantic Seaboard, Northern Suburbs, Southern Suburbs, or the Winelands, we navigate every municipal and provincial requirement on your behalf.
+
 Applying for a new liquor licence can be complex, with strict requirements, extensive documentation, and a formal application process. With over 20 years of experience and one of the highest approval rates in South Africa, **Beverly Jeursen** ensures your application is handled with precision and expertise.
+
+If your launch requires phased licensing, we also coordinate [Temporary Liquor Licences in Cape Town](/services/temporary-liquor-licence) for soft openings and [Event Liquor Licences in Cape Town](/services/event-liquor-licence) for promotional functions so your marketing stays compliant while the full Section 36 approval is in progress.
 
 **Don't risk rejection or costly delays** - let our proven expertise guide you through the entire process from start to finish.
 
@@ -25,7 +29,7 @@ Applying for a new liquor licence can be complex, with strict requirements, exte
 ## What is a Section 36 Liquor Licence?
 
 ### Heading (H2)
-**Understanding Section 36 Liquor Licence Applications**
+**Understanding Section 36 Liquor Licence Applications in Cape Town**
 
 Section 36 of the South African Liquor Act governs applications for **new liquor licences**. This applies when you're:
 
@@ -43,11 +47,11 @@ This is different from transferring an existing licence (Section 65) or temporar
 ## Types of Liquor Licences Available
 
 ### Heading (H2)
-**What Type of Liquor Licence Do You Need?**
+**What Type of Liquor Licence Do You Need in Cape Town?**
 
 South African liquor legislation provides for different types of licences depending on your business model:
 
-### On-Consumption Licences
+### On-Consumption Licences in Cape Town
 **For businesses where liquor is consumed on the premises:**
 - Restaurants and eateries
 - Pubs, bars, and taverns
@@ -55,7 +59,7 @@ South African liquor legislation provides for different types of licences depend
 - Clubs and entertainment venues
 - Event venues
 
-### Off-Consumption Licences
+### Off-Consumption Licences in Cape Town
 **For businesses where liquor is purchased and taken away:**
 - Bottle stores
 - Liquor shops

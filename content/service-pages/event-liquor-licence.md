@@ -1,14 +1,14 @@
-# Event Liquor Licence (Section 48)
+# Event Liquor Licence in Cape Town (Section 48)
 
-**SEO Title:** Event Liquor Licence South Africa | Weddings, Festivals | Section 48(4)
-**Meta Description:** Get event liquor licence for weddings, festivals, corporate events in South Africa. Section 48(4) specialist. Fast approval. Call +27 82-321-7722
-**Focus Keyword:** event liquor licence
-**Secondary Keywords:** wedding liquor licence, festival liquor licence south africa, event alcohol licence, section 48 event
+**SEO Title:** Event Liquor Licence Cape Town | Weddings & Festivals | Section 48(4)
+**Meta Description:** Get an event liquor license in Cape Town for weddings, festivals, and corporate launches. Section 48(4) specialist for Sea Point, Constantia, Stellenbosch, and Atlantic Seaboard venues.
+**Focus Keyword:** event liquor licence cape town
+**Secondary Keywords:** event liquor license in Cape Town, wedding liquor licence, festival liquor licence south africa, section 48 event
 
 ---
 
 ## Page Heading (H1)
-**Event Liquor Licence in South Africa - Section 48(4)**
+**Event Liquor Licence in Cape Town - Section 48(4)**
 
 ---
 
@@ -16,16 +16,20 @@
 
 Planning a wedding, festival, corporate event, or special occasion where alcohol will be served? You need an event liquor licence under Section 48(4) of the South African Liquor Act.
 
+Our team specialises in securing **event liquor licenses in Cape Town** for Sea Point rooftops, Camps Bay villas, Constantia wine estates, Stellenbosch festivals, and corporate launches in the CBD.
+
 Whether it's a wedding reception, music festival, charity gala, sports event, or corporate function, **Beverly Jeursen** ensures your event liquor licence is approved quickly and legally, so your celebration goes off without a hitch.
 
-With 20+ years of experience, we handle event licences for occasions of all sizes across South Africa.
+With 20+ years of experience, we handle event licences for occasions of all sizes across South Africa, with a primary focus on Cape Town and the wider Western Cape.
+
+Need refrigerated storage or longer trading? We often pair event filings with [Temporary Liquor Licences in Cape Town](/services/temporary-liquor-licence) for multi-week festivals and guide venue owners toward the [New Liquor Licence Application in Cape Town](/services/new-liquor-licence-application) once they decide to host events all year.
 
 ---
 
 ## What is an Event Liquor Licence?
 
 ### Heading (H2)
-**Understanding Section 48(4) Event Licences**
+**Understanding Section 48(4) Event Licences in Cape Town**
 
 An event liquor licence is a **special temporary licence** that allows you to sell or serve alcohol at a specific event for a short duration (typically 1-7 days).
 
@@ -48,7 +52,7 @@ An event liquor licence is a **special temporary licence** that allows you to se
 ## Event vs Temporary vs Permanent Licences
 
 ### Heading (H2)
-**Choosing the Right Licence for Your Needs**
+**Choosing the Right Licence for Your Needs in Cape Town**
 
 ### Event Liquor Licence (Section 48(4))
 - Duration: 1-7 days typically (single event)

@@ -131,10 +131,13 @@ export function MarkdownRenderer({ content }: MarkdownRendererProps) {
           },
           img: ({ node, src, alt, ...props }) => {
              if (!src) return null;
+             // Ensure src is a string before calling assetPath
+             const srcString = typeof src === 'string' ? src : '';
+             if (!srcString) return null;
              return (
                  <div className="col-span-full my-12 overflow-hidden rounded-3xl border border-white/10 bg-brand-charcoal relative aspect-video md:aspect-[21/9]">
                     <img 
-                        src={assetPath(src)} 
+                        src={assetPath(srcString)} 
                         alt={alt || ""} 
                         className="w-full h-full object-cover"
                         {...props} 

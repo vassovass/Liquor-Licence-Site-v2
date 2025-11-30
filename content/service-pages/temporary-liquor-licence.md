@@ -1,14 +1,14 @@
-# Temporary Liquor Licence (Section 48)
+# Temporary Liquor Licence in Cape Town (Section 48)
 
-**SEO Title:** Temporary Liquor Licence South Africa | Section 48 | Seasonal Trading
-**Meta Description:** Get a temporary liquor licence for seasonal or short-term trading in South Africa. Section 48(1) expert. Fast approval. Beverly Jeursen +27 82-321-7722
-**Focus Keyword:** temporary liquor licence
-**Secondary Keywords:** section 48 liquor licence, seasonal liquor licence south africa, short term liquor licence
+**SEO Title:** Temporary Liquor Licence Cape Town | Section 48 | Seasonal Trading
+**Meta Description:** Get a temporary liquor license in Cape Town for seasonal or short-term trading. Section 48(1) expert for Atlantic Seaboard pop-ups, Blouberg markets, and Winelands events.
+**Focus Keyword:** temporary liquor licence cape town
+**Secondary Keywords:** temporary liquor license in Cape Town, section 48 liquor licence, seasonal liquor licence south africa
 
 ---
 
 ## Page Heading (H1)
-**Temporary Liquor Licence in South Africa - Section 48(1)**
+**Temporary Liquor Licence in Cape Town - Section 48(1)**
 
 ---
 
@@ -16,14 +16,18 @@
 
 Need a liquor licence for seasonal trading, a pop-up establishment, or temporary business operations? A temporary liquor licence under Section 48(1) of the Liquor Act allows you to legally sell or serve alcohol for a limited period without the cost and commitment of a permanent licence.
 
+We secure **temporary liquor licenses in Cape Town** for beachfront bars in Blouberg, food markets in Woodstock, seaside pop-ups in Kalk Bay, and wine tastings in Stellenbosch or Constantia so you can trade legally during peak season.
+
 With over 20 years of experience, **Beverly Jeursen** ensures your temporary liquor licence application is approved quickly and without complications, so you can capitalize on seasonal opportunities and special trading periods.
+
+When a once-off celebration is all you need, we’ll pivot you to an [Event Liquor Licence in Cape Town](/services/event-liquor-licence); once your concept proves itself we fast-track the upgrade to a [New Liquor Licence Application in Cape Town](/services/new-liquor-licence-application) for permanent trading.
 
 ---
 
 ## What is a Temporary Liquor Licence?
 
 ### Heading (H2)
-**Understanding Section 48(1) Temporary Licences**
+**Understanding Section 48(1) Temporary Licences in Cape Town**
 
 A temporary liquor licence is issued for a **specific limited period**, typically up to 12 months, allowing businesses to sell or serve alcohol legally without applying for a permanent licence.
 
@@ -44,9 +48,9 @@ A temporary liquor licence is issued for a **specific limited period**, typicall
 ## Temporary vs Permanent vs Event Licences
 
 ### Heading (H2)
-**Choosing the Right Licence Type**
+**Choosing the Right Licence Type in Cape Town**
 
-### Temporary Liquor Licence (Section 48(1))
+### Temporary Liquor Licence in Cape Town (Section 48(1))
 - Duration: Up to 12 months
 - For ongoing trading during a limited period
 - Can be renewed

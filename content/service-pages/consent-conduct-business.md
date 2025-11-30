@@ -1,14 +1,14 @@
-# Consent to Conduct Business (Section 65)
+# Consent to Conduct Business in Cape Town (Section 65)
 
-**SEO Title:** Section 65(3) Consent to Trade Pending Transfer | Liquor Licence
-**Meta Description:** Get consent to operate licensed business while transfer is pending. Section 65(3) specialist. Start trading immediately. +27 82-321-7722
-**Focus Keyword:** consent conduct business liquor licence
-**Secondary Keywords:** section 65(3), trade pending transfer, temporary trading consent liquor licence
+**SEO Title:** Section 65(3) Consent Cape Town | Trade Pending Liquor Licence Transfer
+**Meta Description:** Get consent to conduct business in Cape Town while your liquor licence transfer is pending. Section 65(3) specialists helping restaurants, bars, and bottle stores trade immediately.
+**Focus Keyword:** consent conduct business cape town
+**Secondary Keywords:** section 65(3) cape town, trade pending transfer liquor licence, temporary trading consent liquor licence
 
 ---
 
 ## Page Heading (H1)
-**Consent to Conduct Business Pending Licence Transfer - Section 65(3)**
+**Consent to Conduct Business in Cape Town Pending Licence Transfer - Section 65(3)**
 
 ---
 
@@ -16,14 +16,18 @@
 
 Buying a licensed business but can't afford months of no revenue while the licence transfer is processed? Section 65(3) of the South African Liquor Act provides the solution.
 
+We obtain **consent to conduct business in Cape Town** so Long Street bars, Stellenbosch tasting rooms, and Bellville bottle stores can keep trading legally while the Section 65(1) transfer finalises. This keeps your liquor license in Cape Town active and compliant during the ownership change.
+
 With over 20 years of experience, **Beverly Jeursen** secures Section 65(3) consent allowing you to legally operate the licensed business **immediately** while the full Section 65(1) licence transfer is being processed.
+
+Every consent packet travels with a full [Transfer of Liquor Licence in Cape Town](/services/transfer-liquor-licence) application, and when buyers need to reconfigure the venue we coordinate [Alter Licensed Premises in Cape Town](/services/alter-licensed-premises) or [Store Liquor Applications in Cape Town](/services/store-liquor-application) so ongoing upgrades stay compliant.
 
 ---
 
 ## What is Section 65(3)?
 
 ### Heading (H2)
-**Understanding Temporary Trading Consent**
+**Understanding Temporary Trading Consent in Cape Town**
 
 Section 65(3) provides for an application for **temporary consent to conduct the licensed business** while the full licence transfer (Section 65(1)) is being processed.
 
@@ -44,7 +48,7 @@ Section 65(3) consent allows the new owner to **start trading immediately** (typ
 ## Section 65(3) vs Section 65(1)
 
 ### Heading (H2)
-**How Temporary Consent Relates to Full Transfer**
+**How Temporary Consent Relates to Full Transfer in Cape Town**
 
 ### Section 65(1) - Full Licence Transfer
 - Complete transfer of licence from seller to buyer

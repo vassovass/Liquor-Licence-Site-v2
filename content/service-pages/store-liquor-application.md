@@ -1,14 +1,14 @@
-# Store Liquor Application (Section 57)
+# Store Liquor Application in Cape Town (Section 57)
 
-**SEO Title:** Store Liquor Application Section 57 | Off-Premises Storage Permit
-**Meta Description:** Apply to store liquor at alternative location under Section 57(1). Additional storage for licensed businesses. Expert assistance. +27 82-321-7722
-**Focus Keyword:** store liquor permit
-**Secondary Keywords:** section 57 liquor licence, liquor storage permit, off premises liquor storage south africa
+**SEO Title:** Store Liquor Application Cape Town | Section 57 Off-Premises Storage
+**Meta Description:** Apply to store liquor at an alternative location in Cape Town under Section 57(1). Additional storage for licensed businesses across the Western Cape.
+**Focus Keyword:** store liquor permit cape town
+**Secondary Keywords:** section 57 liquor licence, liquor storage permit Cape Town, off premises liquor storage south africa
 
 ---
 
 ## Page Heading (H1)
-**Application to Store Liquor at Alternative Location - Section 57(1)**
+**Application to Store Liquor at an Alternative Location in Cape Town - Section 57(1)**
 
 ---
 
@@ -16,14 +16,18 @@
 
 Need additional storage space for your liquor stock? Want to store alcohol at a location separate from your licensed premises? You need approval under Section 57(1) of the South African Liquor Act.
 
+We arrange Section 57 approvals for Cape Town bottle stores, Stellenbosch wine farms, Paarden Eiland warehouses, and Montague Gardens distributors so their **liquor licenses in Cape Town** stay compliant while stock sits offsite.
+
 With over 20 years of experience, **Beverly Jeursen** ensures your liquor storage application is approved legally and efficiently, allowing you to expand your storage capacity compliantly.
+
+When storage upgrades accompany venue moves or renovations, we coordinate complementary filings like the [Removal of Licence in Cape Town](/services/removal-of-licence) or [Alter Licensed Premises in Cape Town](/services/alter-licensed-premises) so every square meter remains compliant.
 
 ---
 
 ## What is Section 57(1)?
 
 ### Heading (H2)
-**Understanding Liquor Storage Permits**
+**Understanding Liquor Storage Permits in Cape Town**
 
 Section 57(1) governs applications for permission to **store liquor at a location other than the licensed premises**. 
 
@@ -46,7 +50,7 @@ Under the Liquor Act, your liquor licence authorizes you to store alcohol only a
 ## Who Needs Liquor Storage Permits?
 
 ### Heading (H2)
-**Businesses Requiring Section 57(1) Approval**
+**Businesses Requiring Section 57(1) Approval in Cape Town**
 
 ### Bottle Stores & Liquor Retailers
 Retailers with high volume requiring warehouse storage beyond retail floor space.

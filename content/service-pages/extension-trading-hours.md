@@ -1,14 +1,14 @@
-# Extension of Trading Hours (Section 59)
+# Extension of Trading Hours in Cape Town (Section 59)
 
-**SEO Title:** Extend Liquor Trading Hours South Africa | Section 59 | Late Night Licence
-**Meta Description:** Apply to extend liquor trading hours beyond standard times. Section 59(4) specialist. Late night permits for bars, pubs, restaurants. +27 82-321-7722
-**Focus Keyword:** extend trading hours liquor licence
-**Secondary Keywords:** section 59 liquor licence, late night trading hours, extend bar hours south africa, liquor trading hours extension
+**SEO Title:** Extend Liquor Trading Hours Cape Town | Section 59 | Late Night Licence
+**Meta Description:** Apply to extend liquor trading hours in Cape Town. Section 59(4) specialist for Long Street bars, Camps Bay restaurants, and Stellenbosch venues needing late-night permits.
+**Focus Keyword:** extend trading hours cape town
+**Secondary Keywords:** section 59 liquor licence, late night trading hours Cape Town, extend bar hours south africa, liquor trading hours extension
 
 ---
 
 ## Page Heading (H1)
-**Extension of Trading Hours for Liquor Licences - Section 59(4)**
+**Extension of Trading Hours in Cape Town - Section 59(4)**
 
 ---
 
@@ -16,14 +16,18 @@
 
 Want to serve alcohol beyond standard trading hours? Operating a late-night bar, pub, or restaurant? You need official approval to extend your liquor trading hours under Section 59(4) of the South African Liquor Act.
 
+We help nightlife hotspots across the Cape Town CBD, Sea Point, Observatory, and Stellenbosch secure extended trading hours so they can serve safely after midnight without risking fines or licence loss. Protect your liquor license in Cape Town while keeping doors open when demand peaks.
+
 With over 20 years of experience, **Beverly Jeursen** ensures your application for extended trading hours is approved efficiently, allowing you to maximize revenue from late-night trading legally and compliantly.
+
+Need to combine later hours with special activations? We coordinate [Event Liquor Licences in Cape Town](/services/event-liquor-licence) for festival-style evenings and can upgrade seasonal venues to a [Temporary Liquor Licence in Cape Town](/services/temporary-liquor-licence) when a short-term extension isn’t enough.
 
 ---
 
 ## What is Section 59(4)?
 
 ### Heading (H2)
-**Understanding Extended Trading Hours Applications**
+**Understanding Extended Trading Hours Applications in Cape Town**
 
 Section 59 of the Liquor Act governs liquor trading hours. Section 59(4) specifically allows licence holders to **apply for permission to trade beyond standard hours** set by provincial legislation.
 
@@ -50,7 +54,7 @@ With Section 59(4) approval, you can trade:
 ## Who Needs Extended Hours?
 
 ### Heading (H2)
-**Businesses Requiring Extended Trading Hours**
+**Businesses Requiring Extended Trading Hours in Cape Town**
 
 ### Nightclubs
 Late-night entertainment venues need extended hours to operate viable businesses.

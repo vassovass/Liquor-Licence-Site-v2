@@ -1,14 +1,14 @@
-# Transfer of Liquor Licence (Section 65)
+# Transfer of Liquor Licence in Cape Town (Section 65)
 
 **SEO Title:** Transfer Liquor Licence Cape Town | Section 65 | Fast & Legal Transfer
-**Meta Description:** Transfer liquor licence when buying/selling a business in South Africa. Section 65 expert. Fast processing, legal compliance. Beverly Jeursen +27 82-321-7722
-**Focus Keyword:** transfer liquor licence
-**Secondary Keywords:** transfer of liquor licence, section 65 liquor licence, buy liquor licence cape town, sell business with liquor licence
+**Meta Description:** Transfer a liquor license in Cape Town when buying or selling a business. Section 65 experts for restaurants, pubs, bottle stores, and wine bars across the Western Cape.
+**Focus Keyword:** transfer liquor licence cape town
+**Secondary Keywords:** transfer of liquor licence, liquor license transfer in Cape Town, section 65 liquor licence, buy liquor licence cape town
 
 ---
 
 ## Page Heading (H1)
-**Transfer of Liquor Licence in South Africa - Section 65(1)**
+**Transfer of Liquor Licence in Cape Town - Section 65(1)**
 
 ---
 
@@ -16,7 +16,11 @@
 
 Buying or selling a business with an existing liquor licence? The licence needs to be legally transferred to the new owner through a formal process governed by Section 65(1) of the South African Liquor Act.
 
+We manage **liquor license transfers in Cape Town** for Long Street bars, Sea Point restaurants, Durbanville wine shops, and Somerset West bottle stores, ensuring every municipal and provincial condition is satisfied.
+
 Transferring a liquor licence involves strict legal requirements, documentation, and approval from the provincial Liquor Licencing Authority. With over 20 years of experience, **Beverly Jeursen** ensures your licence transfer is handled professionally, legally, and as quickly as possible.
+
+If your circumstances point to a different route, we guide sellers toward [Transfer Financial Interest in Cape Town](/services/transfer-financial-interest) applications for shareholder reshuffles and secure [Consent to Conduct Business in Cape Town](/services/consent-conduct-business) so the buyer can trade legally while the Section 65(1) process runs.
 
 Whether you're the buyer or seller, don't risk costly delays or legal complications - let our proven expertise guide you through the entire transfer process.
 
@@ -25,7 +29,7 @@ Whether you're the buyer or seller, don't risk costly delays or legal complicati
 ## What is a Section 65 Liquor Licence Transfer?
 
 ### Heading (H2)
-**Understanding Liquor Licence Transfers in South Africa**
+**Understanding Liquor Licence Transfers in Cape Town**
 
 Section 65(1) of the Liquor Act governs the **transfer of liquor licences** from one person or entity to another. This applies when:
 
@@ -65,7 +69,7 @@ Customers and suppliers continue without disruption when the licence transfers s
 ## The Licence Transfer Process
 
 ### Heading (H2)
-**How to Transfer a Liquor Licence in South Africa**
+**How to Transfer a Liquor Licence in Cape Town**
 
 ### Step 1: Sale Agreement
 The business sale must be documented in a formal sale agreement specifying the licence transfer.

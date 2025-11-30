@@ -7,6 +7,15 @@ import { MarkdownRenderer } from "@/components/markdown-renderer";
 import { getAllSlugs, getMarkdownContent } from "@/lib/markdown";
 import { Breadcrumb } from "@/components/breadcrumb";
 import { NewLiquorLicenceShowcase } from "@/components/pages/new-liquor-licence-showcase";
+import { AlterLicensedPremisesShowcase } from "@/components/pages/services/alter-licensed-premises-showcase";
+import { ConsentConductBusinessShowcase } from "@/components/pages/services/consent-conduct-business-showcase";
+import { EventLiquorLicenceShowcase } from "@/components/pages/services/event-liquor-licence-showcase";
+import { ExtensionTradingHoursShowcase } from "@/components/pages/services/extension-trading-hours-showcase";
+import { RemovalOfLicenceShowcase } from "@/components/pages/services/removal-of-licence-showcase";
+import { StoreLiquorApplicationShowcase } from "@/components/pages/services/store-liquor-application-showcase";
+import { TemporaryLiquorLicenceShowcase } from "@/components/pages/services/temporary-liquor-licence-showcase";
+import { TransferFinancialInterestShowcase } from "@/components/pages/services/transfer-financial-interest-showcase";
+import { TransferLiquorLicenceShowcase } from "@/components/pages/services/transfer-liquor-licence-showcase";
 import { FeatureHighlight } from "@/components/feature-highlight";
 import { StatsBar } from "@/components/stats-bar";
 import { Separator } from "@/components/separator";
@@ -83,6 +92,23 @@ export default async function ServicePage({ params }: PageProps) {
   // Special Case: Replace "new-liquor-licence-application" content with the new layout
   if (slug === "new-liquor-licence-application") {
     return <NewLiquorLicenceShowcase />;
+  }
+
+  const showcaseMap: Record<string, React.ComponentType> = {
+    "alter-licensed-premises": AlterLicensedPremisesShowcase,
+    "consent-conduct-business": ConsentConductBusinessShowcase,
+    "event-liquor-licence": EventLiquorLicenceShowcase,
+    "extension-trading-hours": ExtensionTradingHoursShowcase,
+    "removal-of-licence": RemovalOfLicenceShowcase,
+    "store-liquor-application": StoreLiquorApplicationShowcase,
+    "temporary-liquor-licence": TemporaryLiquorLicenceShowcase,
+    "transfer-financial-interest": TransferFinancialInterestShowcase,
+    "transfer-liquor-licence": TransferLiquorLicenceShowcase,
+  };
+
+  if (slug in showcaseMap) {
+    const ShowcaseComponent = showcaseMap[slug];
+    return <ShowcaseComponent />;
   }
 
   const doc = getMarkdownContent("service-pages", slug);

@@ -1,14 +1,14 @@
-# Removal of Licence (Section 66)
+# Removal of Licence in Cape Town (Section 66)
 
-**SEO Title:** Remove Liquor Licence to New Location | Section 66(2) | Relocation
-**Meta Description:** Relocate your liquor licence to new premises under Section 66(2). Business relocation without losing your licence. Expert assistance. +27 82-321-7722
-**Focus Keyword:** remove liquor licence new location
-**Secondary Keywords:** section 66 liquor licence, relocate liquor licence, move liquor licence premises south africa
+**SEO Title:** Remove Liquor Licence to New Cape Town Location | Section 66(2)
+**Meta Description:** Relocate your liquor licence to new premises in Cape Town under Section 66(2). Keep trading legally while moving between suburbs across the Western Cape.
+**Focus Keyword:** remove liquor licence cape town
+**Secondary Keywords:** section 66 liquor licence, relocate liquor licence Cape Town, move liquor licence premises south africa
 
 ---
 
 ## Page Heading (H1)
-**Removal of Liquor Licence to New Location - Section 66(2)**
+**Removal of Liquor Licence to a New Cape Town Location - Section 66(2)**
 
 ---
 
@@ -16,14 +16,18 @@
 
 Relocating your licensed business to new premises? You can take your liquor licence with you through a removal application under Section 66(2) of the South African Liquor Act.
 
+We relocate licences for Cape Town CBD restaurants moving to the Atlantic Seaboard, Bellville bottle stores expanding to Somerset West, and Stellenbosch tasting rooms upgrading their venues so every liquor license in Cape Town travels with the business.
+
 With over 20 years of experience, **Beverly Jeursen** ensures your licence removal application is approved efficiently, allowing you to relocate your business without losing your valuable liquor licence.
+
+Many moves also involve structural work or interim trading. We coordinate [Alter Licensed Premises in Cape Town](/services/alter-licensed-premises) submissions for build-outs and secure [Consent to Conduct Business in Cape Town](/services/consent-conduct-business) so the new team can operate legally while the removal is pending.
 
 ---
 
 ## What is Section 66(2)?
 
 ### Heading (H2)
-**Understanding Liquor Licence Removal**
+**Understanding Liquor Licence Removal in Cape Town**
 
 Section 66(2) allows a licence holder to **remove (relocate) their liquor licence from one premises to another**. This enables you to move your business location while maintaining the same licence.
 
@@ -74,7 +78,7 @@ In restricted areas, maintaining your licence through removal protects your comp
 ## Requirements for Licence Removal
 
 ### Heading (H2)
-**What You Need to Remove Your Liquor Licence**
+**What You Need to Remove Your Liquor Licence in Cape Town**
 
 ### Current Licence Requirements
 - Valid liquor licence in good standing

@@ -1,7 +1,7 @@
 # Homepage Content - BJ Liquor Licence
 
-**SEO Title:** Liquor Licence Consultant Cape Town | Beverly Jeursen | 20+ Years Experience
-**Meta Description:** Expert liquor licence consultant in Cape Town. 20+ years experience, highest approval rate. Recommended by Liquor Licencing Authority. Get your licence approved fast.
+**SEO Title:** Liquor Licence Consultant Cape Town | New & Temporary Liquor Licenses
+**Meta Description:** Expert help with new liquor licenses in Cape Town, temporary liquor licenses for events, and ongoing compliance across the Western Cape. 20+ years experience and the highest approval rate.
 **Focus Keyword:** liquor licence consultant cape town
 
 ---
@@ -12,7 +12,7 @@
 **Liquor Licence Consultant Cape Town - Get Your Licence Approved**
 
 ### Subheadline
-Turning applications into approvals with 20+ years of proven expertise. Your liquor licence, guaranteed.
+From new liquor licenses in Cape Town CBD to temporary liquor licences for Atlantic Seaboard events, we turn every application into an approval with 20+ years of proven expertise.
 
 ### Trust Badges
 - ✓ 20+ Years Industry Experience
@@ -49,72 +49,72 @@ Whether you're opening a restaurant, pub, bottle store, or hosting an event, Bev
 ## Services Overview Section
 
 ### Heading (H2)
-**Complete Liquor Licence Services in South Africa**
+**Complete Liquor Licence Services in Cape Town & Western Cape**
 
 ### Intro Paragraph
-From new applications to transfers, renewals, and everything in between - we handle all types of liquor licence applications with expertise and guaranteed results. Our services cover Cape Town and surrounding areas in the Western Cape.
+Whether you need a new liquor license in Cape Town CBD, a temporary liquor licence for a pop-up in Sea Point, or an event permit for a Constantia wine estate, we manage every step with precision. Our team covers the entire Western Cape, ensuring every suburb from Blouberg to Stellenbosch can trade legally.
 
 ### Service Grid (10 Services)
 
 #### 1. New Liquor Licence Application
 **Icon:** Document with checkmark
-**Description:** Apply for a new liquor licence in terms of section 36 of the Liquor Act. Perfect for restaurants, pubs, bottle stores, and other businesses.
+**Description:** Apply for a new liquor licence in Cape Town in terms of Section 36 of the Liquor Act. Ideal for launching restaurants, pubs, bottle stores, and wine bars across the City Bowl, Atlantic Seaboard, and suburbs.
 **Link:** [Learn More](/services/new-liquor-licence-application)
-**Keywords:** new liquor licence, section 36, liquor licence application
+**Keywords:** new liquor licence, new liquor license in Cape Town, section 36
 
 #### 2. Transfer of Liquor Licence
 **Icon:** Transfer arrows
-**Description:** Transfer an existing liquor licence when buying or selling a business (Section 65(1)). Fast, efficient, legally compliant.
+**Description:** Transfer an existing liquor licence in Cape Town when buying or selling a business (Section 65(1)). Perfect for bottle stores changing hands in Durbanville or city restaurants under new ownership.
 **Link:** [Learn More](/services/transfer-liquor-licence)
-**Keywords:** transfer liquor licence, section 65, licence transfer
+**Keywords:** transfer liquor licence, liquor license transfer Cape Town, section 65
 
 #### 3. Temporary Liquor Licence
 **Icon:** Clock/Calendar
-**Description:** Obtain a temporary liquor licence for short-term trading (Section 48(1)). Ideal for seasonal businesses.
+**Description:** Obtain a temporary liquor license in Cape Town for short-term trading (Section 48(1)). Ideal for seasonal beach bars in Blouberg, pop-ups in Woodstock, and summer markets in Hout Bay.
 **Link:** [Learn More](/services/temporary-liquor-licence)
-**Keywords:** temporary licence, section 48, short-term licence
+**Keywords:** temporary liquor licence, temporary liquor license in Cape Town, section 48
 
 #### 4. Event Liquor Licence
 **Icon:** Party/Event
-**Description:** Get an event liquor licence for weddings, festivals, corporate events, and special occasions (Section 48(4)).
+**Description:** Secure an event liquor licence in Cape Town for weddings, festivals, corporate events, and special occasions (Section 48(4)). We frequently assist Sea Point rooftops, Constantia wine estates, and Stellenbosch festivals.
 **Link:** [Learn More](/services/event-liquor-licence)
-**Keywords:** event licence, wedding licence, festival licence
+**Keywords:** event liquor licence Cape Town, wedding liquor license, festival licence
 
 #### 5. Alter Licensed Premises
 **Icon:** Building/Renovation
-**Description:** Get consent to alter, extend, or renovate your licensed premises (Section 53). Required for any structural changes.
+**Description:** Get consent to alter, extend, or renovate your licensed premises in Cape Town (Section 53). Essential when upgrading venues in the CBD, Atlantic Seaboard, or Northern Suburbs.
 **Link:** [Learn More](/services/alter-licensed-premises)
-**Keywords:** alter premises, section 53, renovation consent
+**Keywords:** alter licensed premises Cape Town, section 53, renovation consent
 
 #### 6. Extension of Trading Hours
 **Icon:** Clock
-**Description:** Apply to extend your trading hours beyond standard times (Section 59(4)). Increase revenue with extended hours.
+**Description:** Apply to extend your trading hours in Cape Town beyond standard times (Section 59(4)). Perfect for nightlife hotspots in Long Street, Camps Bay, and Observatory.
 **Link:** [Learn More](/services/extension-trading-hours)
-**Keywords:** trading hours, extended hours, section 59
+**Keywords:** extend trading hours Cape Town, section 59, late trading licence
 
 #### 7. Transfer Financial Interest
 **Icon:** Money/Handshake
-**Description:** Transfer financial interest in the business to which the licence relates (Section 51(2)). Partnership changes made easy.
+**Description:** Transfer financial interest in a Cape Town liquor business (Section 51(2)) when investors or partners change in areas like Woodstock, Claremont, or Somerset West.
 **Link:** [Learn More](/services/transfer-financial-interest)
-**Keywords:** financial interest, section 51, partnership change
+**Keywords:** transfer financial interest, Cape Town liquor licence, section 51
 
 #### 8. Store Liquor Application
 **Icon:** Warehouse
-**Description:** Apply for permission to store liquor at an alternative location (Section 57(1)). Expand your storage capacity legally.
+**Description:** Apply for permission to store liquor at an alternative location in Cape Town (Section 57(1)). Ideal for bottle stores needing additional storage in Montague Gardens or Paarden Eiland.
 **Link:** [Learn More](/services/store-liquor-application)
-**Keywords:** store liquor, section 57, storage permit
+**Keywords:** store liquor Cape Town, section 57, liquor storage permit
 
 #### 9. Removal of Licence
 **Icon:** Location pin
-**Description:** Apply to remove your licence to a new location (Section 66(2)). Relocate your business without losing your licence.
+**Description:** Apply to remove your liquor licence to a new Cape Town location (Section 66(2)). Relocate seamlessly between suburbs like Gardens, Rondebosch, and Bellville.
 **Link:** [Learn More](/services/removal-of-licence)
-**Keywords:** remove licence, relocation, section 66
+**Keywords:** remove liquor licence Cape Town, relocation licence, section 66
 
 #### 10. Consent to Conduct Business
 **Icon:** Document checkmark
-**Description:** Get consent to conduct business pending licence transfer (Section 65(3)). Continue trading during transfer process.
+**Description:** Get consent to conduct business in Cape Town pending licence transfer (Section 65(3)) so you can keep trading in suburbs like Claremont or Bellville while ownership changes finalize.
 **Link:** [Learn More](/services/consent-conduct-business)
-**Keywords:** conduct business, section 65, pending transfer
+**Keywords:** consent to conduct business Cape Town, section 65, liquor licence pending transfer
 
 ---
 
@@ -157,21 +157,25 @@ Based in Blouberg, Cape Town, we provide expert liquor licence consultation serv
 - City Bowl, V&A Waterfront
 - Atlantic Seaboard, Sea Point, Green Point, De Waterkant
 - Gardens, Tamboerskloof, Oranjezicht
+- We file new liquor licenses in Cape Town CBD daily and handle event liquor licences for Sea Point rooftop venues and De Waterkant galleries.
 
 **Northern Suburbs:**
 - Blouberg, Table View, Milnerton
 - Durbanville, Bellville, Tyger Valley
 - Parow, Goodwood, Brackenfell, Kraaifontein
+- Popular for temporary liquor licenses in Cape Town's Northern Suburbs, especially for markets in Blouberg and wine bars in Durbanville.
 
 **Southern Suburbs:**
 - Claremont, Newlands, Constantia
 - Rondebosch, Observatory, Mowbray
 - Wynberg, Plumstead, Diep River
+- Event liquor licences in Constantia, Newlands, and Observatory remain in high demand for weddings, corporate launches, and student events.
 
 **Winelands & Coastal Areas:**
 - Stellenbosch, Paarl, Franschhoek
 - Somerset West, Strand, Gordon's Bay
 - Hout Bay, Noordhoek, Kommetjie
+- We regularly arrange temporary and event liquor licenses for Stellenbosch wine estates, Franschhoek festivals, and beachfront gatherings in Hout Bay.
 
 **Link:** [View All Areas Served](/areas-served)
 

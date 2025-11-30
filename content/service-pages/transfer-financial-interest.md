@@ -1,14 +1,14 @@
-# Transfer Financial Interest (Section 51)
+# Transfer Financial Interest in Cape Town (Section 51)
 
-**SEO Title:** Transfer Financial Interest Liquor Licence | Section 51(2) | Partnership
-**Meta Description:** Transfer financial interest in licensed business under Section 51(2). Partnership changes, shareholding transfers. Expert assistance. +27 82-321-7722
-**Focus Keyword:** transfer financial interest liquor licence
-**Secondary Keywords:** section 51 liquor licence, partnership change liquor licence, shareholding transfer liquor licence
+**SEO Title:** Transfer Financial Interest Cape Town | Section 51(2) Liquor Licence
+**Meta Description:** Transfer financial interest in a Cape Town liquor licensed business under Section 51(2). Partnership changes and shareholding transfers handled for venues across the Western Cape.
+**Focus Keyword:** transfer financial interest cape town
+**Secondary Keywords:** section 51 liquor licence, partnership change liquor licence Cape Town, shareholding transfer liquor licence
 
 ---
 
 ## Page Heading (H1)
-**Transfer of Financial Interest in Liquor Licensed Business - Section 51(2)**
+**Transfer of Financial Interest in Cape Town Liquor Businesses - Section 51(2)**
 
 ---
 
@@ -16,14 +16,18 @@
 
 Changing partners in your licensed business? Adding or removing shareholders? Any transfer of financial interest in a business holding a liquor licence requires approval under Section 51(2) of the South African Liquor Act.
 
+We assist restaurants in the Cape Town CBD, wine bars in Constantia, breweries in Woodstock, and bottle stores in Bellville with compliant Section 51(2) approvals so every investor tied to your liquor license in Cape Town is properly vetted.
+
 With over 20 years of experience, **Beverly Jeursen** ensures your financial interest transfer is approved legally and efficiently, protecting your licence and business interests.
+
+When ownership restructuring leads to a full sale we handle the [Transfer of Liquor Licence in Cape Town](/services/transfer-liquor-licence), and if the new partners want to trade during paperwork we secure the necessary [Consent to Conduct Business in Cape Town](/services/consent-conduct-business).
 
 ---
 
 ## What is Section 51(2)?
 
 ### Heading (H2)
-**Understanding Financial Interest Transfers**
+**Understanding Financial Interest Transfers in Cape Town**
 
 Section 51(2) governs the **transfer of financial interest in the business** to which a liquor licence relates, without transferring the licence itself (Section 65).
 
@@ -43,7 +47,7 @@ This applies when:
 ## Section 51 vs Section 65
 
 ### Heading (H2)
-**Financial Interest Transfer vs Licence Transfer**
+**Financial Interest Transfer vs Licence Transfer in Cape Town**
 
 ### Section 51(2) - Financial Interest Transfer
 - **What changes:** Ownership shares within the licence-holding entity
