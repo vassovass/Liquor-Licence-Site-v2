@@ -13,7 +13,7 @@ import { RevealEmail } from "@/components/reveal-email";
 import { Phone, Mail, MessageCircle, MapPin, Clock, CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Contact Us | BJ Liquor Licence Consultants",
+  title: "Contact Us | BAJ Liquor Licence Consultants",
   description: "Get in touch with Beverly Jeursen for expert liquor licence advice. Free consultation for new applications, transfers, and more.",
 };
 

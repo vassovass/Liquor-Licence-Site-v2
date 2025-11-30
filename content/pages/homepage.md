@@ -1,4 +1,4 @@
-# Homepage Content - BJ Liquor Licence
+# Homepage Content - BAJ Liquor Licence
 
 **SEO Title:** Liquor Licence Consultant Cape Town | New & Temporary Liquor Licenses
 **Meta Description:** Expert help with new liquor licenses in Cape Town, temporary liquor licenses for events, and ongoing compliance across the Western Cape. 20+ years experience and the highest approval rate.
@@ -121,7 +121,7 @@ Whether you need a new liquor license in Cape Town CBD, a temporary liquor licen
 ## Why Choose Beverly Jeursen Section
 
 ### Heading (H2)
-**Why Choose BJ Liquor Licence Consultants?**
+**Why Choose BAJ Liquor Licence Consultants?**
 
 ### Benefits Grid
 

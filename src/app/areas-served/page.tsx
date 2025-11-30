@@ -10,7 +10,7 @@ import { ContentBox } from "@/components/content-box";
 import { MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Areas Served | BJ Liquor Licence Consultants | Cape Town & Surrounds",
+  title: "Areas Served | BAJ Liquor Licence Consultants | Cape Town & Surrounds",
   description:
     "Liquor licence services in Cape Town and surrounding areas. Serving CBD, Northern Suburbs, Southern Suburbs, Winelands, and coastal areas. Expert consultation.",
 };

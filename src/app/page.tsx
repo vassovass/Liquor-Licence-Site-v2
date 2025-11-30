@@ -139,7 +139,7 @@ const faqs = [
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-  name: "BJ Liquor Licence Consultants",
+  name: "BAJ Liquor Licence Consultants",
   url: "https://bjliquorlicence.co.za",
   image: "https://bjliquorlicence.co.za/images/hero-beverly.jpg",
   telephone: "+27-82-321-7722",
@@ -179,7 +179,7 @@ export default function Home() {
               Turning applications into approvals—your liquor licence, guaranteed.
             </h1>
             <p className="max-w-2xl text-lg text-brand-cream/75">
-              Beverly Jeursen leads every file with 20+ years of experience, navigating the Western Cape Liquor Licencing Authority. From new licences to high-stakes relocations, we remove the guesswork and keep you trading legally in Cape Town and surrounds.
+              Beverly Anne Jeursen leads every file with 20+ years of experience, navigating the Western Cape Liquor Licencing Authority. From new licences to high-stakes relocations, we remove the guesswork and keep you trading legally in Cape Town and surrounds.
             </p>
             <div className="flex flex-wrap gap-3">
               <CTAButton
@@ -301,7 +301,7 @@ export default function Home() {
         </SectionShell>
 
         <SectionShell
-          eyebrow="Why Choose BJ Liquor Licence"
+          eyebrow="Why Choose BAJ Liquor Licence"
           title="Expert guidance, personal service, guaranteed outcomes"
           description="We combine legal rigour with relentless follow-up so you can trade confidently."
         >

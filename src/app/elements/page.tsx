@@ -17,7 +17,7 @@ import { StatsBar } from "@/components/stats-bar";
 import { FileText, ShieldCheck, Clock, Calendar, Star, Globe, Zap, Award, Code, Layers, Users, Settings, CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Design Elements | BJ Liquor Licence Consultants",
+  title: "Design Elements | BAJ Liquor Licence Consultants",
   description: "A comprehensive library of reusable design elements and layout components.",
 };
 

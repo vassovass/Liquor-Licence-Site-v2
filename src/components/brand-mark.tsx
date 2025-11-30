@@ -9,11 +9,11 @@ type BrandMarkProps = {
 };
 
 // Adjusted sizes to keep header compact (max 70px height requirement)
-// Aspect ratio of original image (660x564) is roughly 1.17:1
+// New BAJ lockup is square, so widths match heights
 const sizeMap: Record<NonNullable<BrandMarkProps["size"]>, { w: number; h: number }> = {
-  sm: { w: 70, h: 60 },   // Reduced from 80/68 to fit 70px constraint
-  md: { w: 120, h: 103 }, 
-  lg: { w: 180, h: 154 }, 
+  sm: { w: 64, h: 64 },
+  md: { w: 110, h: 110 },
+  lg: { w: 160, h: 160 },
 };
 
 export function BrandMark({ size = "sm" }: BrandMarkProps) {
@@ -21,8 +21,8 @@ export function BrandMark({ size = "sm" }: BrandMarkProps) {
   return (
     <Link href="/" className="group inline-block shrink-0">
       <Image
-        src={assetPath("/images/logo-full.png")}
-        alt="BJ Liquor Licence Consultant – Beverly Jeursen"
+        src={assetPath("/images/BAJ Logo.png")}
+        alt="BAJ Liquor Licence Consultants – Beverly Anne Jeursen"
         width={w}
         height={h}
         priority={size !== "sm"}

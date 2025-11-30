@@ -8,7 +8,7 @@ import { CTAButton } from "@/components/cta-button";
 import { getAllSlugs, getMarkdownContent } from "@/lib/markdown";
 
 export const metadata: Metadata = {
-  title: "Blog | BJ Liquor Licence Consultants",
+  title: "Blog | BAJ Liquor Licence Consultants",
   description: "Latest news, guides, and updates on liquor licencing in Cape Town.",
 };
 

@@ -11,7 +11,7 @@ import { getAllSlugs, getMarkdownContent } from "@/lib/markdown";
 import { FileText, Users, Calendar, Wine, Building2, Clock, Scale, Store, Home, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Services | BJ Liquor Licence Consultants",
+  title: "Services | BAJ Liquor Licence Consultants",
   description: "Comprehensive liquor licence services for all business types in Cape Town and surrounds.",
 };
 

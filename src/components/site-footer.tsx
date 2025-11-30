@@ -44,7 +44,7 @@ export function SiteFooter() {
 
       <div className="border-t border-white/5">
         <div className="container flex flex-col gap-4 py-6 text-xs text-brand-cream/50 sm:flex-row sm:items-center sm:justify-between">
-          <span>© {currentYear} BJ Liquor Licence Consultants. All rights reserved.</span>
+          <span>© {currentYear} BAJ Liquor Licence Consultants. All rights reserved.</span>
           <CTAButton href="/contact" variant="ghost" size="md" className="px-4 py-2">
             Request Free Consultation
           </CTAButton>
