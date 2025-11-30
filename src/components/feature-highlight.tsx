@@ -4,12 +4,14 @@ import Image from "next/image";
 import { assetPath } from "@/lib/asset-path";
 import { ImageIcon } from "lucide-react";
 
-interface FeatureHighlightProps {
+export interface FeatureHighlightProps {
   title: string;
   description: string;
   imageSrc?: string;
   ctaText?: string;
   ctaHref?: string;
+  secondaryCtaText?: string;
+  secondaryCtaHref?: string;
   className?: string;
   align?: "left" | "right";
   ctaTrackingAction?: string;
@@ -17,12 +19,14 @@ interface FeatureHighlightProps {
   ctaTrackingLabel?: string;
 }
 
-export function FeatureHighlight({ 
-  title, 
-  description, 
-  imageSrc, 
-  ctaText, 
-  ctaHref, 
+export function FeatureHighlight({
+  title,
+  description,
+  imageSrc,
+  ctaText,
+  ctaHref,
+  secondaryCtaText,
+  secondaryCtaHref,
   className,
   align = "left",
   ctaTrackingAction,
@@ -38,18 +42,27 @@ export function FeatureHighlight({
       <div className="flex-1 p-12 md:p-16 space-y-6">
         <h3 className="font-serif text-3xl md:text-4xl leading-tight">{title}</h3>
         <p className="text-brand-charcoal/80 text-lg leading-relaxed max-w-md">{description}</p>
-        {ctaText && ctaHref && (
-          <CTAButton
-            href={ctaHref}
-            variant="primary"
-            className="bg-brand-charcoal text-brand-success border-transparent hover:bg-black/90 focus-visible:outline-black"
-            trackingAction={ctaTrackingAction || "click_cta"}
-            trackingCategory={ctaTrackingCategory}
-            trackingLabel={ctaTrackingLabel || ctaText}
-          >
-            {ctaText}
-          </CTAButton>
-        )}
+        {(ctaText && ctaHref) || (secondaryCtaText && secondaryCtaHref) ? (
+          <div className="flex flex-col gap-3 sm:flex-row">
+            {ctaText && ctaHref ? (
+              <CTAButton
+                href={ctaHref}
+                variant="primary"
+                className="bg-brand-charcoal text-brand-success border-transparent hover:bg-black/90 focus-visible:outline-black"
+                trackingAction={ctaTrackingAction || "click_cta"}
+                trackingCategory={ctaTrackingCategory}
+                trackingLabel={ctaTrackingLabel || ctaText}
+              >
+                {ctaText}
+              </CTAButton>
+            ) : null}
+            {secondaryCtaText && secondaryCtaHref ? (
+              <CTAButton href={secondaryCtaHref} variant="ghost" className="text-brand-charcoal">
+                {secondaryCtaText}
+              </CTAButton>
+            ) : null}
+          </div>
+        ) : null}
       </div>
       <div className="flex-1 w-full h-64 md:h-auto relative min-h-[300px] md:min-h-[400px] bg-brand-charcoal/5 flex items-center justify-center">
          {imageSrc ? (
