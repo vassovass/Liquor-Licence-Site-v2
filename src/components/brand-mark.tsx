@@ -21,7 +21,7 @@ export function BrandMark({ size = "sm" }: BrandMarkProps) {
   return (
     <Link href="/" className="group inline-block shrink-0">
       <Image
-        src={assetPath("/images/BAJ Logo.png")}
+        src={assetPath("/images/BAJ-Logo.png")}
         alt="BAJ Liquor Licence Consultants – Beverly Anne Jeursen"
         width={w}
         height={h}
