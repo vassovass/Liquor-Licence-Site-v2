@@ -8,11 +8,12 @@ interface ContentBoxProps {
   href?: string;
   actionText?: string;
   className?: string;
+  id?: string;
 }
 
-export function ContentBox({ title, children, icon, href, actionText = "Learn more", className }: ContentBoxProps) {
+export function ContentBox({ title, children, icon, href, actionText = "Learn more", className, id }: ContentBoxProps) {
   return (
-    <div className={cn("group flex flex-col h-full", className)}>
+    <div id={id} className={cn("group flex flex-col h-full", className)}>
       <div className="flex-1">
         {icon && (
           <div className="mb-6 text-brand-sand transition-transform duration-300 group-hover:scale-110 origin-left">

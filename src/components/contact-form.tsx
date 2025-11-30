@@ -17,6 +17,9 @@ export function ContactForm() {
     setSubmitMessage("");
 
     const formData = new FormData(e.currentTarget);
+    
+    // Extract service value BEFORE FormData is consumed by fetch()
+    const service = formData.get("service") as string;
 
     try {
       const response = await fetch("/api/contact", {
@@ -31,7 +34,6 @@ export function ContactForm() {
         setSubmitMessage(data.message || "Thank you for your enquiry. We'll be in touch soon.");
         
         // Track successful form submission
-        const service = formData.get("service") as string;
         trackEvent({
           action: "form_submit_success",
           category: "contact_form",

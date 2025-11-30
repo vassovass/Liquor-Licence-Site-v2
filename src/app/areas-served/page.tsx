@@ -122,8 +122,20 @@ export default function AreasServedPage() {
             description="From the City Bowl to the Winelands, we handle liquor licence applications across Cape Town and surrounds."
           >
             <Grid columns={3} className="mt-12">
-              {areaCards.map((card) => (
-                <div key={card.title} className="space-y-4 rounded-3xl border border-white/10 bg-brand-graphite/30 p-4">
+              {areaCards.map((card) => {
+                // Map card titles to anchor IDs matching routes.ts
+                const titleToId: Record<string, string> = {
+                  "Cape Town CBD & Surrounds": "cape-town-cbd",
+                  "Atlantic Seaboard": "atlantic-seaboard",
+                  "Northern Suburbs": "northern-suburbs",
+                  "Southern Suburbs": "southern-suburbs",
+                  "Winelands": "winelands",
+                  "Coastal Areas": "coastal-areas",
+                };
+                const sectionId = titleToId[card.title];
+                
+                return (
+                <div key={card.title} id={sectionId} className="space-y-4 rounded-3xl border border-white/10 bg-brand-graphite/30 p-4">
                   <div className="overflow-hidden rounded-3xl">
                     <Image
                       src={card.image}
@@ -140,7 +152,8 @@ export default function AreasServedPage() {
                     ))}
                   </ul>
                 </div>
-              ))}
+                );
+              })}
             </Grid>
           </SectionShell>
         </div>
@@ -152,8 +165,20 @@ export default function AreasServedPage() {
             description="Expert liquor licence services across all major areas of Cape Town and surrounds with deep understanding of local requirements."
           >
             <Grid columns={3} className="mt-12">
-              {capeTownAreas.map((area) => (
-                <ContentBox key={area.name} title={area.name} icon={<MapPin className="h-8 w-8" />}>
+              {capeTownAreas.map((area) => {
+                // Map area names to anchor IDs matching routes.ts
+                const nameToId: Record<string, string> = {
+                  "Cape Town CBD & Surrounds": "cape-town-cbd",
+                  "Atlantic Seaboard": "atlantic-seaboard",
+                  "Northern Suburbs": "northern-suburbs",
+                  "Southern Suburbs": "southern-suburbs",
+                  "Winelands": "winelands",
+                  "Coastal Areas": "coastal-areas",
+                };
+                const sectionId = nameToId[area.name];
+                
+                return (
+                <ContentBox key={area.name} id={sectionId} title={area.name} icon={<MapPin className="h-8 w-8" />}>
                   <p className="text-sm text-brand-cream/70 mb-4">{area.description}</p>
                   <ul className="space-y-1 text-sm text-brand-cream/60">
                     {area.suburbs.map((suburb) => (
@@ -161,7 +186,8 @@ export default function AreasServedPage() {
                     ))}
                   </ul>
                 </ContentBox>
-              ))}
+                );
+              })}
             </Grid>
           </SectionShell>
         </div>
