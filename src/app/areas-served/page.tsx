@@ -123,7 +123,7 @@ export default function AreasServedPage() {
           >
             <Grid columns={3} className="mt-12">
               {areaCards.map((card) => {
-                // Map card titles to anchor IDs matching routes.ts
+                // Map card titles to anchor IDs matching routes.ts navigation links
                 const titleToId: Record<string, string> = {
                   "Cape Town CBD & Surrounds": "cape-town-cbd",
                   "Atlantic Seaboard": "atlantic-seaboard",
@@ -133,7 +133,7 @@ export default function AreasServedPage() {
                   "Coastal Areas": "coastal-areas",
                 };
                 const sectionId = titleToId[card.title];
-                
+
                 return (
                 <div key={card.title} id={sectionId} className="space-y-4 rounded-3xl border border-white/10 bg-brand-graphite/30 p-4">
                   <div className="overflow-hidden rounded-3xl">
@@ -166,14 +166,14 @@ export default function AreasServedPage() {
           >
             <Grid columns={3} className="mt-12">
               {capeTownAreas.map((area) => {
-                // Map area names to anchor IDs matching routes.ts
+                // Map area names to anchor IDs for detailed coverage (unique IDs, distinct from above cards)
                 const nameToId: Record<string, string> = {
-                  "Cape Town CBD & Surrounds": "cape-town-cbd",
-                  "Atlantic Seaboard": "atlantic-seaboard",
-                  "Northern Suburbs": "northern-suburbs",
-                  "Southern Suburbs": "southern-suburbs",
-                  "Winelands": "winelands",
-                  "Coastal Areas": "coastal-areas",
+                  "Cape Town CBD & Surrounds": "cape-town-cbd-detail",
+                  "Atlantic Seaboard": "atlantic-seaboard-detail",
+                  "Northern Suburbs": "northern-suburbs-detail",
+                  "Southern Suburbs": "southern-suburbs-detail",
+                  "Winelands": "winelands-detail",
+                  "Coastal Areas": "coastal-areas-detail",
                 };
                 const sectionId = nameToId[area.name];
                 
