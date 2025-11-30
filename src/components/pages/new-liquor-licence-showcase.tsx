@@ -47,7 +47,7 @@ export function NewLiquorLicenceShowcase() {
         <div className="mb-24">
           <StatsBar
             stats={[
-              { value: "95%", label: "Approval Rate", helper: "Across all provinces" },
+              { value: "95%", label: "Approval Rate", helper: "In Cape Town" },
               { value: "20+ yrs", label: "Experience" },
               { value: "10", label: "Licence Types" },
             ]}
@@ -189,16 +189,16 @@ export function NewLiquorLicenceShowcase() {
               <ContentBox title="Estimated Timeline" icon={<Clock className="h-8 w-8" />}>
                 <ul className="space-y-4 mt-4">
                   <li className="flex justify-between border-b border-white/10 pb-2">
-                    <span>Western Cape</span>
+                    <span>Cape Town</span>
                     <span className="text-brand-sand font-bold">60-90 Days</span>
                   </li>
                   <li className="flex justify-between border-b border-white/10 pb-2">
-                    <span>Gauteng</span>
-                    <span className="text-brand-sand font-bold">90-120 Days</span>
+                    <span>Winelands</span>
+                    <span className="text-brand-sand font-bold">60-90 Days</span>
                   </li>
                   <li className="flex justify-between border-b border-white/10 pb-2">
-                    <span>KZN & Others</span>
-                    <span className="text-brand-sand font-bold">90-120 Days</span>
+                    <span>Coastal Areas</span>
+                    <span className="text-brand-sand font-bold">60-90 Days</span>
                   </li>
                 </ul>
               </ContentBox>
@@ -293,13 +293,15 @@ export function NewLiquorLicenceShowcase() {
             <h2 className="font-serif text-2xl">Areas Served</h2>
           </div>
           <p className="text-brand-cream/70 mb-6">
-            While based in Cape Town, we provide expert liquor licence application services throughout South Africa.
+            Based in Blouberg, Cape Town, we provide expert liquor licence application services throughout Cape Town and surrounding areas.
           </p>
-          <Grid columns={4} gap="sm">
-            <div className="p-4 bg-brand-charcoal rounded-xl text-center">Western Cape</div>
-            <div className="p-4 bg-brand-charcoal rounded-xl text-center">Gauteng</div>
-            <div className="p-4 bg-brand-charcoal rounded-xl text-center">KwaZulu-Natal</div>
-            <div className="p-4 bg-brand-charcoal rounded-xl text-center">Nationwide</div>
+          <Grid columns={3} gap="sm">
+            <div className="p-4 bg-brand-charcoal rounded-xl text-center">Cape Town CBD & Surrounds</div>
+            <div className="p-4 bg-brand-charcoal rounded-xl text-center">Northern Suburbs</div>
+            <div className="p-4 bg-brand-charcoal rounded-xl text-center">Southern Suburbs</div>
+            <div className="p-4 bg-brand-charcoal rounded-xl text-center">Winelands</div>
+            <div className="p-4 bg-brand-charcoal rounded-xl text-center">Coastal Areas</div>
+            <div className="p-4 bg-brand-charcoal rounded-xl text-center">Atlantic Seaboard</div>
           </Grid>
         </div>
 
@@ -350,10 +352,24 @@ export function NewLiquorLicenceShowcase() {
             clear roadmap to approval.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <CTAButton href="/contact" variant="primary" size="lg">
+            <CTAButton
+              href="/contact"
+              variant="primary"
+              size="lg"
+              trackingAction="click_cta"
+              trackingCategory="new_licence_showcase"
+              trackingLabel="book_free_consultation"
+            >
               Book Free Consultation
             </CTAButton>
-            <CTAButton href="tel:+27823217722" variant="secondary" size="lg">
+            <CTAButton
+              href="tel:+27823217722"
+              variant="secondary"
+              size="lg"
+              trackingAction="click_phone_cta"
+              trackingCategory="new_licence_showcase"
+              trackingLabel="call_phone"
+            >
               Call +27 82 321 7722
             </CTAButton>
           </div>

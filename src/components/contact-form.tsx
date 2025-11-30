@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Card } from "@/components/card";
 import { Callout } from "@/components/callout";
+import { trackEvent } from "@/lib/tracking";
 
 export function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -28,6 +29,15 @@ export function ContactForm() {
       if (response.ok) {
         setSubmitStatus("success");
         setSubmitMessage(data.message || "Thank you for your enquiry. We'll be in touch soon.");
+        
+        // Track successful form submission
+        const service = formData.get("service") as string;
+        trackEvent({
+          action: "form_submit_success",
+          category: "contact_form",
+          label: service || "general_enquiry",
+        });
+        
         e.currentTarget.reset();
       } else {
         setSubmitStatus("error");
@@ -130,7 +140,9 @@ export function ContactForm() {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full inline-flex items-center justify-center gap-2 rounded-full border border-transparent bg-brand-sand px-8 py-4 text-sm font-semibold uppercase tracking-[0.28em] text-brand-charcoal shadow-[0_8px_30px_rgba(0,0,0,0.25)] transition-colors duration-200 hover:bg-brand-sand/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-sand disabled:opacity-50 disabled:cursor-not-allowed"
+          className="w-full inline-flex items-center justify-center gap-2 rounded-full border border-transparent bg-brand-sand px-8 py-4 text-sm font-semibold uppercase tracking-[0.28em] text-brand-charcoal shadow-[0_8px_30px_rgba(0,0,0,0.25)] transition-colors duration-200 hover:bg-brand-sand/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-sand disabled:opacity-50 disabled:cursor-not-allowed cta-button"
+          data-cta-action="form_submit"
+          data-cta-category="contact_form"
         >
           {isSubmitting ? "Sending..." : "Send Request"}
         </button>

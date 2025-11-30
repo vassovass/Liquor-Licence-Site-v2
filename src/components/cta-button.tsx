@@ -1,7 +1,10 @@
+"use client";
+
 import Link from "next/link";
 import type { ReactNode } from "react";
 
 import { cn } from "@/lib/utils";
+import { getTrackingAttributes, trackEvent } from "@/lib/tracking";
 
 type CTAButtonProps = {
   href: string;
@@ -10,6 +13,9 @@ type CTAButtonProps = {
   size?: "md" | "lg";
   icon?: ReactNode;
   className?: string;
+  trackingAction?: string;
+  trackingCategory?: string;
+  trackingLabel?: string;
 };
 
 const baseStyles =
@@ -34,9 +40,43 @@ export function CTAButton({
   size = "md",
   icon,
   className,
+  trackingAction,
+  trackingCategory = "cta",
+  trackingLabel,
 }: CTAButtonProps) {
+  const handleClick = () => {
+    if (trackingAction) {
+      trackEvent({
+        action: trackingAction,
+        category: trackingCategory,
+        label: trackingLabel || children?.toString() || href,
+      });
+    }
+  };
+
+  const trackingAttrs = trackingAction
+    ? getTrackingAttributes({
+        action: trackingAction,
+        category: trackingCategory,
+        label: trackingLabel || children?.toString() || href,
+      })
+    : {};
+
   return (
-    <Link href={href} className={cn(baseStyles, variantStyles[variant], sizeStyles[size], className)}>
+    <Link
+      href={href}
+      onClick={handleClick}
+      className={cn(
+        baseStyles,
+        variantStyles[variant],
+        sizeStyles[size],
+        "cta-button",
+        className
+      )}
+      data-cta-action={trackingAction || "click"}
+      data-cta-href={href}
+      {...trackingAttrs}
+    >
       <span>{children}</span>
       {icon ? <span className="text-base">{icon}</span> : null}
     </Link>

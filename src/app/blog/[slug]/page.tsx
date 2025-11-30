@@ -73,7 +73,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
         <FeatureHighlight
           title={doc.title}
-          description={doc.metadata.meta_description || "Expert insights and guidance on liquor licencing in South Africa."}
+          description={doc.metadata.meta_description || "Expert insights and guidance on liquor licencing in Cape Town."}
           ctaText="Get Expert Help"
           ctaHref="#contact"
           imageSrc="/images/hero-beverly.jpg"
@@ -113,7 +113,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           <SectionShell
             eyebrow="Need Help?"
             title="Expert Guidance Available"
-            description="Don't navigate the liquor licence process alone. Get professional assistance from South Africa's leading consultant."
+            description="Don't navigate the liquor licence process alone. Get professional assistance from Cape Town's leading consultant."
           >
             <Grid columns={3} className="mt-12">
               <Card title="Free Consultation">
@@ -121,7 +121,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                 process.
               </Card>
               <Card title="20+ Years Experience">
-                Benefit from decades of expertise and one of the highest approval rates in South Africa.
+                Benefit from decades of expertise and one of the highest approval rates in Cape Town.
               </Card>
               <Card title="Complete Service">
                 From initial assessment through final approval, we handle every aspect of your application.

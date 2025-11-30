@@ -152,12 +152,7 @@ Once approved, we notify you immediately and guide you through collecting your l
 ### Heading (H2)
 **Liquor Licence Application Timeline in South Africa**
 
-The timeline for a new liquor licence application varies by province and specific circumstances:
-
-**Western Cape:** Typically 60-90 days
-**Gauteng:** Typically 90-120 days
-**KwaZulu-Natal:** Typically 90-120 days
-**Other Provinces:** 60-120 days
+The timeline for a new liquor licence application in Cape Town typically ranges from 60-90 days, depending on specific circumstances:
 
 Factors affecting timeline:
 - Completeness of application (our expertise ensures no delays here)
@@ -272,14 +267,15 @@ No matter your business type, we have the expertise to secure your liquor licenc
 ## Areas Served
 
 ### Heading (H2)
-**New Liquor Licence Applications Across South Africa**
+**New Liquor Licence Applications in Cape Town and Surrounds**
 
-While based in Cape Town, we provide expert liquor licence application services throughout South Africa:
+Based in Blouberg, Cape Town, we provide expert liquor licence application services throughout Cape Town and surrounding areas:
 
-**Western Cape:** Cape Town, Stellenbosch, Paarl, Somerset West, George, Hermanus
-**Gauteng:** Johannesburg, Pretoria, Sandton, Centurion, Midrand
-**KwaZulu-Natal:** Durban, Pietermaritzburg, Umhlanga, Ballito
-**All Other Provinces:** Nationwide coverage
+**Cape Town CBD & Surrounds:** City Bowl, V&A Waterfront, Gardens, Atlantic Seaboard, Sea Point, Green Point
+**Northern Suburbs:** Blouberg, Table View, Milnerton, Durbanville, Bellville, Tyger Valley, Parow, Goodwood, Brackenfell
+**Southern Suburbs:** Claremont, Newlands, Constantia, Rondebosch, Observatory, Wynberg
+**Winelands:** Stellenbosch, Paarl, Franschhoek, Somerset West, Strand, Gordon's Bay
+**Coastal Areas:** Hout Bay, Noordhoek, Kommetjie, Fish Hoek, Simon's Town
 
 [Link to Areas Served page]
 

@@ -13,6 +13,8 @@ import { Review } from "@/components/review";
 import { Card } from "@/components/card";
 import { Separator } from "@/components/separator";
 import { Checklist } from "@/components/checklist";
+import { RevealPhone } from "@/components/reveal-phone";
+import { RevealEmail } from "@/components/reveal-email";
 import {
   Award,
   CheckCircle2,
@@ -36,7 +38,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "About Beverly Jeursen | Expert Liquor Licence Consultant | 20+ Years",
     description:
-      "Meet Beverly Jeursen, South Africa's leading liquor licence consultant with 20+ years experience. Recommended by Liquor Licencing Authority. Highest approval rate.",
+      "Meet Beverly Jeursen, Cape Town's leading liquor licence consultant with 20+ years experience. Recommended by Liquor Licencing Authority. Highest approval rate.",
   };
 }
 
@@ -50,7 +52,7 @@ export default function AboutPage() {
 
         <FeatureHighlight
           title="About Beverly Jeursen - Your Trusted Liquor Licence Expert"
-          description="Beverly Jeursen is a highly experienced liquor licence consultant with more than 20 years specializing in liquor licence applications across South Africa. Her commitment to clients is simple: achieve the desired outcome. With one of the highest approval rates in the field, Beverly ensures that every application is handled with precision and persistence."
+          description="Beverly Jeursen is a highly experienced liquor licence consultant with more than 20 years specializing in liquor licence applications in Cape Town and surrounding areas. Her commitment to clients is simple: achieve the desired outcome. With one of the highest approval rates in the field, Beverly ensures that every application is handled with precision and persistence."
           ctaText="Work With Beverly"
           ctaHref="#contact"
           imageSrc="/images/hero-beverly.jpg"
@@ -61,8 +63,8 @@ export default function AboutPage() {
           <StatsBar
             stats={[
               { value: "20+", label: "Years Experience", helper: "Specializing in liquor licences" },
-              { value: "95%", label: "Approval Rate", helper: "One of the highest in South Africa" },
-              { value: "9", label: "Provinces Served", helper: "Nationwide expertise" },
+              { value: "95%", label: "Approval Rate", helper: "One of the highest in Cape Town" },
+              { value: "1000+", label: "Successful Applications", helper: "In Cape Town and surrounds" },
               { value: "10", label: "Licence Types", helper: "Complete Liquor Act coverage" },
             ]}
           />
@@ -112,12 +114,12 @@ export default function AboutPage() {
                   {
                     title: "Building a Reputation (2010s)",
                     description:
-                      "Expanded services across all of South Africa's provinces, developing deep expertise in each province's unique liquor legislation. Handled increasingly complex applications including large-scale festival licences, multi-location bottle store chains, high-profile restaurant groups, hotels, and craft brewery licences.",
+                      "Deepened expertise in Western Cape liquor legislation, serving clients throughout Cape Town and surrounding areas. Handled increasingly complex applications including large-scale festival licences, multi-location bottle store chains, high-profile restaurant groups, hotels, and craft brewery licences.",
                   },
                   {
                     title: "Industry Recognition (2015-Present)",
                     description:
-                      "Formally recognised by the Liquor Licencing Authority as one of the best agents in the industry. This recognition solidified Beverly's position as a leading liquor licence consultant in South Africa, with thousands of successful applications across all licence types and clients nationwide.",
+                      "Formally recognised by the Liquor Licencing Authority as one of the best agents in the industry. This recognition solidified Beverly's position as a leading liquor licence consultant in Cape Town, with thousands of successful applications across all licence types for clients throughout Cape Town and surrounding areas.",
                   },
                 ]}
               />
@@ -181,23 +183,22 @@ export default function AboutPage() {
 
         <div className="mb-24">
           <SectionShell
-            eyebrow="Provinces"
-            title="Provincial Expertise Across South Africa"
-            description="With 20+ years across all provinces, Beverly understands the nuances of each jurisdiction."
+            eyebrow="Areas Served"
+            title="Serving Cape Town and Surrounding Areas"
+            description="With 20+ years serving Cape Town, Beverly understands the nuances of Western Cape liquor licencing requirements."
           >
             <Grid columns={4} className="mt-12">
-              <ContentBox title="Western Cape" icon={<MapPin className="h-6 w-6" />}>
-                Cape Town metro, wine lands, tourist areas, township licensing
+              <ContentBox title="Cape Town CBD & Surrounds" icon={<MapPin className="h-6 w-6" />}>
+                City Bowl, V&A Waterfront, Atlantic Seaboard, Sea Point, Green Point
               </ContentBox>
-              <ContentBox title="Gauteng" icon={<MapPin className="h-6 w-6" />}>
-                Johannesburg, Pretoria, Sandton, entertainment districts
+              <ContentBox title="Northern Suburbs" icon={<MapPin className="h-6 w-6" />}>
+                Blouberg, Table View, Milnerton, Durbanville, Bellville, Tyger Valley
               </ContentBox>
-              <ContentBox title="KwaZulu-Natal" icon={<MapPin className="h-6 w-6" />}>
-                Durban, coastal areas, tourism zones
+              <ContentBox title="Southern Suburbs" icon={<MapPin className="h-6 w-6" />}>
+                Claremont, Newlands, Constantia, Rondebosch, Observatory, Wynberg
               </ContentBox>
-              <ContentBox title="All Provinces" icon={<MapPin className="h-6 w-6" />}>
-                Eastern Cape, Limpopo, Mpumalanga, North West, Northern Cape, Free State - comprehensive provincial
-                knowledge
+              <ContentBox title="Winelands & Coastal" icon={<MapPin className="h-6 w-6" />}>
+                Stellenbosch, Paarl, Franschhoek, Somerset West, Strand, Gordon's Bay
               </ContentBox>
             </Grid>
           </SectionShell>
@@ -292,7 +293,7 @@ export default function AboutPage() {
               <Card title="Proven Track Record">
                 <Checklist
                   items={[
-                    "One of the highest approval rates in South Africa",
+                    "One of the highest approval rates in Cape Town",
                     "Minimal rejections due to thorough preparation",
                     "Fastest processing times through expert application",
                     "Satisfied clients across all business types",
@@ -313,9 +314,9 @@ export default function AboutPage() {
                 <Checklist
                   items={[
                     "All 10 licence types under South African law",
-                    "All 9 provincial variations and practices",
+                    "Western Cape specific requirements and practices",
                     "Every section of the Liquor Act",
-                    "Historical context and practical experience",
+                    "Historical context and practical experience in Cape Town",
                   ]}
                 />
               </Card>
@@ -349,12 +350,12 @@ export default function AboutPage() {
               />
               <Review
                 author="Bottle Store Chain"
-                role="Gauteng"
+                role="Northern Suburbs"
                 content="As a multi-location operation, we needed someone who understood complex licensing across multiple premises. Beverly's expertise with our transfers and new applications was invaluable. She's our only consultant now."
               />
               <Review
                 author="Wedding Venue Owner"
-                role="KwaZulu-Natal"
+                role="Stellenbosch"
                 content="Event licences every weekend meant we needed reliable, fast service. Beverly has processed over 50 event licences for our venue with zero issues. She's part of our success."
               />
               <Review
@@ -384,7 +385,7 @@ export default function AboutPage() {
                 expectations, ongoing updates, and compliance guidance.
               </Card>
               <Card title="Continuous Improvement">
-                Even with 20+ years experience, Beverly stays current: legislative updates tracked, provincial changes
+                Even with 20+ years experience, Beverly stays current: legislative updates tracked, Western Cape changes
                 monitored, industry developments incorporated, and best practices refined continuously.
               </Card>
             </Grid>
@@ -404,24 +405,30 @@ export default function AboutPage() {
             <div className="space-y-3 text-left">
               <div className="flex items-center gap-3">
                 <span className="text-brand-sand font-medium">Phone:</span>
-                <a href="tel:+27823217722" className="text-brand-cream hover:text-brand-sand transition-colors">
-                  +27 82-321-7722
-                </a>
+                <RevealPhone
+                  phone="+27823217722"
+                  displayPhone="+27 82-321-7722"
+                  className="text-brand-cream hover:text-brand-sand transition-colors"
+                  trackingLabel="about_page_contact_section"
+                />
               </div>
               <div className="flex items-center gap-3">
                 <span className="text-brand-sand font-medium">Email:</span>
-                <a
-                  href="mailto:bajeursen.liquorlicences@gmail.com"
+                <RevealEmail
+                  email="bajeursen.liquorlicences@gmail.com"
                   className="text-brand-cream hover:text-brand-sand transition-colors"
-                >
-                  bajeursen.liquorlicences@gmail.com
-                </a>
+                  trackingLabel="about_page_contact_section"
+                />
               </div>
               <div className="flex items-center gap-3">
                 <span className="text-brand-sand font-medium">WhatsApp:</span>
-                <a href="https://wa.me/27823217722" className="text-brand-cream hover:text-brand-sand transition-colors">
-                  +27 82-321-7722
-                </a>
+                <RevealPhone
+                  phone="+27823217722"
+                  displayPhone="+27 82-321-7722"
+                  href="https://wa.me/27823217722"
+                  className="text-brand-cream hover:text-brand-sand transition-colors"
+                  trackingLabel="about_page_contact_section_whatsapp"
+                />
               </div>
               <div className="pt-3 border-t border-white/10">
                 <p className="text-sm text-brand-cream/60 mb-2">

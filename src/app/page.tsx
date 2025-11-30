@@ -8,7 +8,7 @@ import { SectionShell } from "@/components/section-shell";
 import { StatsBar } from "@/components/stats-bar";
 
 const stats = [
-  { value: "95%", label: "Approval rate", helper: "Across all provinces" },
+  { value: "95%", label: "Approval rate", helper: "In Cape Town" },
   { value: "20+ yrs", label: "Experience" },
   { value: "10", label: "Licence types", helper: "Full Liquor Act coverage" },
 ];
@@ -152,7 +152,7 @@ const localBusinessSchema = {
     addressCountry: "ZA",
   },
   sameAs: ["https://www.facebook.com/", "https://www.linkedin.com/"],
-  areaServed: ["Cape Town", "Western Cape"],
+  areaServed: ["Cape Town", "Blouberg", "Table View", "Milnerton", "Durbanville", "Bellville", "Stellenbosch", "Paarl", "Somerset West"],
 };
 
 const faqSchema = {
@@ -179,14 +179,26 @@ export default function Home() {
               Turning applications into approvals—your liquor licence, guaranteed.
             </h1>
             <p className="max-w-2xl text-lg text-brand-cream/75">
-              Beverly Jeursen leads every file with 20+ years of experience, navigating every provincial authority in South
-              Africa. From new licences to high-stakes relocations, we remove the guesswork and keep you trading legally.
+              Beverly Jeursen leads every file with 20+ years of experience, navigating the Western Cape Liquor Licencing Authority. From new licences to high-stakes relocations, we remove the guesswork and keep you trading legally in Cape Town and surrounds.
             </p>
             <div className="flex flex-wrap gap-3">
-              <CTAButton href="/contact" variant="primary" size="lg">
+              <CTAButton
+                href="/contact"
+                variant="primary"
+                size="lg"
+                trackingAction="click_cta"
+                trackingCategory="hero"
+                trackingLabel="get_free_consultation"
+              >
                 Get Free Consultation
               </CTAButton>
-              <CTAButton href="tel:+27823217722" variant="secondary">
+              <CTAButton
+                href="tel:+27823217722"
+                variant="secondary"
+                trackingAction="click_phone_cta"
+                trackingCategory="hero"
+                trackingLabel="call_phone_homepage"
+              >
                 Call +27 82 321 7722
               </CTAButton>
             </div>
@@ -245,7 +257,7 @@ export default function Home() {
             <div className="space-y-6 text-base text-brand-cream/80">
               <p>
                 Beverly Jeursen has guided thousands of liquor licence applications over two decades. Her obsession with detail and
-                persistence with local authorities produces one of the highest approval rates in South Africa.
+                persistence with local authorities produces one of the highest approval rates in Cape Town.
               </p>
               <p>
                 Whether you are opening a new venue, relocating, or buying a licensed business, Beverly personally manages every
@@ -265,8 +277,8 @@ export default function Home() {
 
         <SectionShell
           eyebrow="Services"
-          title="Complete liquor licence services across South Africa"
-          description="Every licence type under the South African Liquor Act handled with precision."
+          title="Complete liquor licence services in Cape Town"
+          description="Every licence type under the South African Liquor Act handled with precision for Cape Town and surrounding areas."
         >
           <div className="grid gap-6 md:grid-cols-2">
             {services.map((service) => (

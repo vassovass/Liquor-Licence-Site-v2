@@ -21,7 +21,7 @@
 - **Experience:** 20+ Years in Liquor Licence Consultation
 - **Approval Rate:** One of the Highest in South Africa
 - **Recognition:** Recommended by Liquor Licencing Authority
-- **Provinces Served:** All 9 Provinces
+- **Areas Served:** Cape Town and Surrounds
 - **Licence Types:** Expert in All 10 Types
 - **Location:** Blouberg, Cape Town, Western Cape
 
@@ -29,7 +29,7 @@
 
 ## Introduction
 
-Beverly Jeursen is a highly experienced liquor licence consultant with more than **20 years** specializing in liquor licence applications across South Africa. Over the decades, she has built an outstanding reputation for professionalism, reliability, and a deep understanding of South African liquor licencing requirements.
+Beverly Jeursen is a highly experienced liquor licence consultant with more than **20 years** specializing in liquor licence applications in Cape Town and surrounding areas. Over the decades, she has built an outstanding reputation for professionalism, reliability, and a deep understanding of Western Cape liquor licencing requirements.
 
 Her commitment to clients is simple: **achieve the desired outcome**. With one of the highest approval rates in the field, Beverly ensures that every application is handled with precision and persistence, giving her clients the best possible chance of success.
 
@@ -47,7 +47,7 @@ Starting in Cape Town's Western Cape, she quickly established herself as a knowl
 
 ### Building a Reputation (2010s)
 
-Throughout the 2010s, Beverly expanded her services across all of South Africa's provinces, developing deep expertise in each province's unique liquor legislation and practices. Her growing reputation brought clients from Johannesburg, Durban, Pretoria, and beyond.
+Throughout the 2010s, Beverly deepened her expertise in Western Cape liquor legislation and practices, serving clients throughout Cape Town and surrounding areas including the Northern Suburbs, Southern Suburbs, Winelands, and coastal regions.
 
 During this period, Beverly handled increasingly complex applications:
 - Large-scale festival and event licences
@@ -70,12 +70,12 @@ This recognition solidified Beverly's position as a leading liquor licence consu
 
 ### Today: Leading Expert
 
-Today, Beverly Jeursen is regarded as one of South Africa's foremost liquor licence experts, with:
+Today, Beverly Jeursen is regarded as one of Cape Town's foremost liquor licence experts, with:
 - **Thousands of successful applications** across all licence types
-- **Clients nationwide** from Cape Town to Johannesburg to Durban
+- **Clients throughout Cape Town** and surrounding areas
 - **Expertise in all 10 licence types** under the Liquor Act
-- **Provincial expertise** across all 9 provinces
-- **Industry relationships** with Liquor Licencing Authorities
+- **Deep knowledge** of Western Cape liquor licencing requirements
+- **Industry relationships** with the Western Cape Liquor Licencing Authority
 - **Highest approval rates** in the consultation field
 
 ---
@@ -146,15 +146,15 @@ Beverly is expert in all 10 types of liquor licence applications:
     - Business continuity
     - Fast-track processing
 
-### Provincial Expertise
+### Area Expertise
 
-With 20+ years across all provinces, Beverly understands the nuances of each jurisdiction:
+With 20+ years serving Cape Town and surrounds, Beverly understands the nuances of the Western Cape jurisdiction:
 
-**Western Cape** - Cape Town metro, wine lands, tourist areas, township licensing
-**Gauteng** - Johannesburg, Pretoria, Sandton, entertainment districts
-**KwaZulu-Natal** - Durban, coastal areas, tourism zones
-**Eastern Cape** - Port Elizabeth, East London, rural areas
-**Limpopo, Mpumalanga, North West, Northern Cape, Free State** - Comprehensive provincial knowledge
+**Cape Town CBD & Surrounds** - City Bowl, V&A Waterfront, Atlantic Seaboard, Sea Point, Green Point
+**Northern Suburbs** - Blouberg, Table View, Milnerton, Durbanville, Bellville, Tyger Valley, Parow, Goodwood, Brackenfell
+**Southern Suburbs** - Claremont, Newlands, Constantia, Rondebosch, Observatory, Wynberg
+**Winelands** - Stellenbosch, Paarl, Franschhoek
+**Coastal Areas** - Somerset West, Strand, Gordon's Bay, Hout Bay, Noordhoek
 
 ### Industry Specializations
 
@@ -229,10 +229,10 @@ The Liquor Licencing Authority's recommendation is a unique distinction that dem
 
 Beverly's knowledge encompasses:
 - **All 10 licence types** under South African law
-- **All 9 provincial** variations and practices
+- **Western Cape** specific requirements and practices
 - **Every section** of the Liquor Act
-- **Historical context** of liquor legislation
-- **Practical experience** with thousands of applications
+- **Historical context** of liquor legislation in the Western Cape
+- **Practical experience** with thousands of applications in Cape Town
 
 ### Personal Service
 
@@ -340,9 +340,9 @@ Friday: 09:00 - 15:00
 
 - **20+ Years** specializing in liquor licence consultation
 - **Recommended** by Liquor Licencing Authority
-- **Highest approval rate** in South African liquor licence consultation
+- **Highest approval rate** in Cape Town liquor licence consultation
 - **Thousands** of successful applications
-- **All provinces** expertise across South Africa
+- **Cape Town and surrounds** expertise
 - **All licence types** comprehensive service offering
 - **Industry recognition** as leading consultant
 

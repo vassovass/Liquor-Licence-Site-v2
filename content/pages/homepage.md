@@ -38,7 +38,7 @@ Her commitment to clients is simple: **achieve the desired outcome**. With one o
 
 This dedication has not gone unnoticed. Beverly has been **recognised and recommended by the Liquor Licencing Authority** as one of the best agents in the industry - an acknowledgment of her consistent results and trusted expertise.
 
-Whether you're opening a restaurant, pub, bottle store, or hosting an event, Beverly provides comprehensive guidance through every step of the liquor licence application process in Cape Town and throughout South Africa.
+Whether you're opening a restaurant, pub, bottle store, or hosting an event, Beverly provides comprehensive guidance through every step of the liquor licence application process in Cape Town and surrounding areas.
 
 **Internal Links:**
 - [Learn More About Beverly](/about)
@@ -52,7 +52,7 @@ Whether you're opening a restaurant, pub, bottle store, or hosting an event, Bev
 **Complete Liquor Licence Services in South Africa**
 
 ### Intro Paragraph
-From new applications to transfers, renewals, and everything in between - we handle all types of liquor licence applications with expertise and guaranteed results. Our services cover the entire Western Cape, Gauteng, KwaZulu-Natal, and all provinces across South Africa.
+From new applications to transfers, renewals, and everything in between - we handle all types of liquor licence applications with expertise and guaranteed results. Our services cover Cape Town and surrounding areas in the Western Cape.
 
 ### Service Grid (10 Services)
 
@@ -126,7 +126,7 @@ From new applications to transfers, renewals, and everything in between - we han
 ### Benefits Grid
 
 #### Proven Track Record
-With over 20 years in the industry and one of the highest approval rates in South Africa, you can trust your application is in expert hands.
+With over 20 years in the industry and one of the highest approval rates in Cape Town, you can trust your application is in expert hands.
 
 #### Authority Recognition
 Recognised and recommended by the Liquor Licencing Authority as one of the best liquor licence agents in the industry.
@@ -148,28 +148,30 @@ With our expertise and attention to detail, we guarantee the best possible outco
 ## Areas Served Section
 
 ### Heading (H2)
-**Liquor Licence Services Across South Africa**
+**Liquor Licence Services in Cape Town and Surrounds**
 
 ### Content
-While based in Blouberg, Cape Town, we provide expert liquor licence consultation services throughout South Africa, including:
+Based in Blouberg, Cape Town, we provide expert liquor licence consultation services throughout Cape Town and surrounding areas:
 
-**Western Cape:**
-- Cape Town (CBD, Atlantic Seaboard, Northern Suburbs, Southern Suburbs)
+**Cape Town CBD & Surrounds:**
+- City Bowl, V&A Waterfront
+- Atlantic Seaboard, Sea Point, Green Point, De Waterkant
+- Gardens, Tamboerskloof, Oranjezicht
+
+**Northern Suburbs:**
+- Blouberg, Table View, Milnerton
+- Durbanville, Bellville, Tyger Valley
+- Parow, Goodwood, Brackenfell, Kraaifontein
+
+**Southern Suburbs:**
+- Claremont, Newlands, Constantia
+- Rondebosch, Observatory, Mowbray
+- Wynberg, Plumstead, Diep River
+
+**Winelands & Coastal Areas:**
 - Stellenbosch, Paarl, Franschhoek
-- Somerset West, Hermanus, George
-
-**Gauteng:**
-- Johannesburg, Sandton, Rosebank
-- Pretoria, Centurion
-- Midrand, Fourways
-
-**KwaZulu-Natal:**
-- Durban, Umhlanga
-- Pietermaritzburg
-- Ballito, Richards Bay
-
-**All Other Provinces:**
-We service clients nationwide across all 9 provinces of South Africa.
+- Somerset West, Strand, Gordon's Bay
+- Hout Bay, Noordhoek, Kommetjie
 
 **Link:** [View All Areas Served](/areas-served)
 

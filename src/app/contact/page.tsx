@@ -8,6 +8,8 @@ import { Card } from "@/components/card";
 import { Callout } from "@/components/callout";
 import { FeatureHighlight } from "@/components/feature-highlight";
 import { ContactForm } from "@/components/contact-form";
+import { RevealPhone } from "@/components/reveal-phone";
+import { RevealEmail } from "@/components/reveal-email";
 import { Phone, Mail, MessageCircle, MapPin, Clock, CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -44,15 +46,22 @@ export default function ContactPage() {
                 icon={<Phone className="h-8 w-8 text-brand-sand" />}
                 className="text-center"
               >
-                <a
-                  href="tel:+27823217722"
+                <RevealPhone
+                  phone="+27823217722"
+                  displayPhone="+27 82 321 7722"
                   className="text-2xl font-serif text-brand-sand hover:text-brand-cream transition-colors block mb-4"
-                >
-                  +27 82 321 7722
-                </a>
+                  trackingLabel="contact_page_phone_card"
+                />
                 <p className="text-sm text-brand-cream/70">Call during office hours for immediate assistance</p>
                 <div className="mt-6">
-                  <CTAButton href="tel:+27823217722" variant="primary" className="w-full justify-center">
+                  <CTAButton
+                    href="tel:+27823217722"
+                    variant="primary"
+                    className="w-full justify-center"
+                    trackingAction="click_phone_cta"
+                    trackingCategory="contact"
+                    trackingLabel="contact_page_phone_card"
+                  >
                     Call Now
                   </CTAButton>
                 </div>
@@ -63,15 +72,23 @@ export default function ContactPage() {
                 icon={<MessageCircle className="h-8 w-8 text-brand-sand" />}
                 className="text-center"
               >
-                <a
+                <RevealPhone
+                  phone="+27823217722"
+                  displayPhone="+27 82 321 7722"
                   href="https://wa.me/27823217722"
                   className="text-2xl font-serif text-brand-sand hover:text-brand-cream transition-colors block mb-4"
-                >
-                  +27 82 321 7722
-                </a>
+                  trackingLabel="contact_page_whatsapp_card"
+                />
                 <p className="text-sm text-brand-cream/70">Send a message anytime - we'll respond promptly</p>
                 <div className="mt-6">
-                  <CTAButton href="https://wa.me/27823217722" variant="secondary" className="w-full justify-center">
+                  <CTAButton
+                    href="https://wa.me/27823217722"
+                    variant="secondary"
+                    className="w-full justify-center"
+                    trackingAction="click_whatsapp_cta"
+                    trackingCategory="contact"
+                    trackingLabel="contact_page_whatsapp_card"
+                  >
                     WhatsApp Us
                   </CTAButton>
                 </div>
@@ -97,12 +114,11 @@ export default function ContactPage() {
                     <Mail className="h-6 w-6 text-brand-sand shrink-0 mt-1" />
                     <div>
                       <h3 className="font-serif text-lg mb-1">Email</h3>
-                      <a
-                        href="mailto:bajeursen.liquorlicences@gmail.com"
+                      <RevealEmail
+                        email="bajeursen.liquorlicences@gmail.com"
                         className="text-brand-cream hover:text-brand-sand transition-colors"
-                      >
-                        bajeursen.liquorlicences@gmail.com
-                      </a>
+                        trackingLabel="contact_page_email_office_info"
+                      />
                     </div>
                   </div>
 
@@ -142,7 +158,7 @@ export default function ContactPage() {
                 process.
               </Card>
               <Card title="Expert Advice">
-                Get guidance from South Africa's leading liquor licence consultant with 20+ years of experience.
+                Get guidance from Cape Town's leading liquor licence consultant with 20+ years of experience.
               </Card>
               <Card title="Fast Response">
                 We respond promptly to all enquiries and are available during office hours for immediate assistance.
@@ -153,10 +169,24 @@ export default function ContactPage() {
 
         <div className="mb-24">
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <CTAButton href="tel:+27823217722" variant="primary" size="lg">
+            <CTAButton
+              href="tel:+27823217722"
+              variant="primary"
+              size="lg"
+              trackingAction="click_phone_cta"
+              trackingCategory="contact"
+              trackingLabel="contact_page_bottom_cta"
+            >
               Call +27 82 321 7722
             </CTAButton>
-            <CTAButton href="https://wa.me/27823217722" variant="secondary" size="lg">
+            <CTAButton
+              href="https://wa.me/27823217722"
+              variant="secondary"
+              size="lg"
+              trackingAction="click_whatsapp_cta"
+              trackingCategory="contact"
+              trackingLabel="contact_page_bottom_cta"
+            >
               WhatsApp Beverly
             </CTAButton>
           </div>

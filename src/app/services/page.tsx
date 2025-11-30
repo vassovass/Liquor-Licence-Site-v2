@@ -12,7 +12,7 @@ import { FileText, Users, Calendar, Wine, Building2, Clock, Scale, Store, Home, 
 
 export const metadata: Metadata = {
   title: "Services | BJ Liquor Licence Consultants",
-  description: "Comprehensive liquor licence services for all business types in South Africa.",
+  description: "Comprehensive liquor licence services for all business types in Cape Town and surrounds.",
 };
 
 const serviceIcons: Record<string, React.ReactNode> = {
@@ -58,8 +58,8 @@ export default function ServicesIndexPage() {
         </div>
 
         <FeatureHighlight
-          title="Complete Liquor Licence Services Across South Africa"
-          description="Every licence type under the South African Liquor Act handled with precision. From new applications to complex transfers, Beverly Jeursen provides expert guidance with one of the highest approval rates in the industry."
+          title="Complete Liquor Licence Services in Cape Town"
+          description="Every licence type under the South African Liquor Act handled with precision. From new applications to complex transfers, Beverly Jeursen provides expert guidance with one of the highest approval rates in Cape Town."
           ctaText="Get Free Consultation"
           ctaHref="/contact"
           imageSrc="/images/hero-beverly.jpg"
@@ -69,7 +69,7 @@ export default function ServicesIndexPage() {
         <div className="mb-24">
           <StatsBar
             stats={[
-              { value: "95%", label: "Approval Rate", helper: "Across all provinces" },
+              { value: "95%", label: "Approval Rate", helper: "In Cape Town" },
               { value: "20+ yrs", label: "Experience" },
               { value: "10", label: "Licence Types", helper: "Complete Liquor Act coverage" },
             ]}
@@ -118,7 +118,7 @@ export default function ServicesIndexPage() {
                 From new businesses to complex relocations, every section is covered.
               </ContentBox>
               <ContentBox title="Fast Processing" icon={<Clock className="h-8 w-8" />}>
-                We know every provincial nuance, so your file never sits idle.
+                We know every Western Cape nuance, so your file never sits idle.
               </ContentBox>
               <ContentBox title="Personal Service" icon={<Users className="h-8 w-8" />}>
                 Work directly with Beverly—no call centres, no hand-offs.
@@ -132,10 +132,24 @@ export default function ServicesIndexPage() {
 
         <div className="mb-24">
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <CTAButton href="/contact" variant="primary" size="lg">
+            <CTAButton
+              href="/contact"
+              variant="primary"
+              size="lg"
+              trackingAction="click_cta"
+              trackingCategory="services"
+              trackingLabel="get_free_consultation"
+            >
               Get Free Consultation
             </CTAButton>
-            <CTAButton href="tel:+27823217722" variant="secondary" size="lg">
+            <CTAButton
+              href="tel:+27823217722"
+              variant="secondary"
+              size="lg"
+              trackingAction="click_phone_cta"
+              trackingCategory="services"
+              trackingLabel="call_phone_services"
+            >
               Call +27 82 321 7722
             </CTAButton>
           </div>

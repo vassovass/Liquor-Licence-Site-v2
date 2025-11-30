@@ -303,16 +303,16 @@ export default function AlterLicensedPremisesPage() {
               <ContentBox title="Application Timeline" icon={<Clock className="h-8 w-8" />}>
                 <ul className="space-y-4 mt-4">
                   <li className="flex justify-between border-b border-white/10 pb-2">
-                    <span>Western Cape</span>
+                    <span>Cape Town</span>
                     <span className="text-brand-sand font-bold">30-60 Days</span>
                   </li>
                   <li className="flex justify-between border-b border-white/10 pb-2">
-                    <span>Gauteng</span>
-                    <span className="text-brand-sand font-bold">45-75 Days</span>
+                    <span>Winelands</span>
+                    <span className="text-brand-sand font-bold">30-60 Days</span>
                   </li>
                   <li className="flex justify-between border-b border-white/10 pb-2">
-                    <span>KwaZulu-Natal</span>
-                    <span className="text-brand-sand font-bold">45-75 Days</span>
+                    <span>Coastal Areas</span>
+                    <span className="text-brand-sand font-bold">30-60 Days</span>
                   </li>
                 </ul>
                 <p className="text-xs text-brand-cream/50 mt-4">Start early: Begin the application process before you need to start construction. Building approval, document preparation, and authority processing all take time.</p>
@@ -514,85 +514,38 @@ export default function AlterLicensedPremisesPage() {
 
         <div className="mb-24">
           <SectionShell
-            eyebrow="Provinces"
-            title="Section 53 Requirements by Province"
-            description="While Section 53 is national legislation, implementation varies by province."
+            eyebrow="Cape Town Requirements"
+            title="Section 53 Requirements in Cape Town"
+            description="Section 53 is national legislation, and in Cape Town, the Western Cape Liquor Licencing Authority has specific implementation requirements."
           >
             <div className="mt-12">
-              <Tabs
-                items={[
-                  {
-                    label: "Western Cape",
-                    content: (
-                      <div className="p-6 bg-brand-graphite/20 rounded-xl">
-                        <ul className="space-y-3">
-                          <li className="flex items-start gap-3">
-                            <span className="shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-brand-sand" />
-                            <span>Strict enforcement</span>
-                          </li>
-                          <li className="flex items-start gap-3">
-                            <span className="shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-brand-sand" />
-                            <span>Detailed floor plans required</span>
-                          </li>
-                          <li className="flex items-start gap-3">
-                            <span className="shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-brand-sand" />
-                            <span>Post-completion inspections common</span>
-                          </li>
-                          <li className="flex items-start gap-3">
-                            <span className="shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-brand-sand" />
-                            <span>Tourist area alterations heavily scrutinized</span>
-                          </li>
-                        </ul>
-                      </div>
-                    ),
-                  },
-                  {
-                    label: "Gauteng",
-                    content: (
-                      <div className="p-6 bg-brand-graphite/20 rounded-xl">
-                        <ul className="space-y-3">
-                          <li className="flex items-start gap-3">
-                            <span className="shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-brand-sand" />
-                            <span>Focus on compliance with building regs</span>
-                          </li>
-                          <li className="flex items-start gap-3">
-                            <span className="shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-brand-sand" />
-                            <span>Metro vs rural variations</span>
-                          </li>
-                          <li className="flex items-start gap-3">
-                            <span className="shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-brand-sand" />
-                            <span>Johannesburg particularly strict</span>
-                          </li>
-                        </ul>
-                      </div>
-                    ),
-                  },
-                  {
-                    label: "KwaZulu-Natal",
-                    content: (
-                      <div className="p-6 bg-brand-graphite/20 rounded-xl">
-                        <ul className="space-y-3">
-                          <li className="flex items-start gap-3">
-                            <span className="shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-brand-sand" />
-                            <span>Coastal area development focus</span>
-                          </li>
-                          <li className="flex items-start gap-3">
-                            <span className="shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-brand-sand" />
-                            <span>Tourism venue alterations well-supported</span>
-                          </li>
-                          <li className="flex items-start gap-3">
-                            <span className="shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-brand-sand" />
-                            <span>Strong building compliance requirements</span>
-                          </li>
-                        </ul>
-                      </div>
-                    ),
-                  },
-                ]}
-              />
+              <div className="p-6 bg-brand-graphite/20 rounded-xl">
+                <ul className="space-y-3">
+                  <li className="flex items-start gap-3">
+                    <span className="shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-brand-sand" />
+                    <span>Strict enforcement in Cape Town</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-brand-sand" />
+                    <span>Detailed floor plans required</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-brand-sand" />
+                    <span>Post-completion inspections common</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-brand-sand" />
+                    <span>Tourist area alterations heavily scrutinized</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-brand-sand" />
+                    <span>CBD and Atlantic Seaboard have specific requirements</span>
+                  </li>
+                </ul>
+              </div>
             </div>
             <Callout variant="info" className="mt-8">
-              Provincial expertise matters. With 20+ years across all provinces, Beverly knows local nuances.
+              Local expertise matters. With 20+ years in Cape Town, Beverly knows the specific requirements and nuances of the Western Cape Liquor Licencing Authority.
             </Callout>
           </SectionShell>
         </div>

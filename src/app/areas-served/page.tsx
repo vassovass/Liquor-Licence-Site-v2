@@ -10,56 +10,41 @@ import { ContentBox } from "@/components/content-box";
 import { MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Areas Served | BJ Liquor Licence Consultants | Nationwide Service",
+  title: "Areas Served | BJ Liquor Licence Consultants | Cape Town & Surrounds",
   description:
-    "Liquor licence services across South Africa. Serving Cape Town, Johannesburg, Durban, and all provinces. Expert consultation nationwide.",
+    "Liquor licence services in Cape Town and surrounding areas. Serving CBD, Northern Suburbs, Southern Suburbs, Winelands, and coastal areas. Expert consultation.",
 };
 
-const provinces = [
+const capeTownAreas = [
   {
-    name: "Western Cape",
-    cities: ["Cape Town", "Stellenbosch", "Paarl", "Franschhoek", "Somerset West", "Hermanus", "George"],
-    description: "Cape Town metro, wine lands, tourist areas, township licensing",
+    name: "Cape Town CBD & Surrounds",
+    suburbs: ["City Bowl", "V&A Waterfront", "Gardens", "Tamboerskloof", "Oranjezicht", "De Waterkant"],
+    description: "City center, waterfront, and inner city areas",
   },
   {
-    name: "Gauteng",
-    cities: ["Johannesburg", "Pretoria", "Sandton", "Rosebank", "Centurion", "Midrand", "Fourways"],
-    description: "Johannesburg, Pretoria, Sandton, entertainment districts",
+    name: "Atlantic Seaboard",
+    suburbs: ["Sea Point", "Green Point", "Mouille Point", "Bantry Bay", "Clifton", "Camps Bay"],
+    description: "Coastal areas along the Atlantic Ocean",
   },
   {
-    name: "KwaZulu-Natal",
-    cities: ["Durban", "Umhlanga", "Pietermaritzburg", "Ballito", "Richards Bay"],
-    description: "Durban, coastal areas, tourism zones",
+    name: "Northern Suburbs",
+    suburbs: ["Blouberg", "Table View", "Milnerton", "Durbanville", "Bellville", "Tyger Valley", "Parow", "Goodwood", "Brackenfell", "Kraaifontein"],
+    description: "Northern suburbs and business districts",
   },
   {
-    name: "Eastern Cape",
-    cities: ["Port Elizabeth", "East London", "Grahamstown"],
-    description: "Port Elizabeth, East London, rural areas",
+    name: "Southern Suburbs",
+    suburbs: ["Claremont", "Newlands", "Constantia", "Rondebosch", "Observatory", "Mowbray", "Wynberg", "Plumstead", "Diep River", "Tokai"],
+    description: "Southern suburbs and residential areas",
   },
   {
-    name: "Free State",
-    cities: ["Bloemfontein", "Welkom"],
-    description: "Comprehensive provincial knowledge",
+    name: "Winelands",
+    suburbs: ["Stellenbosch", "Paarl", "Franschhoek", "Wellington", "Somerset West", "Strand", "Gordon's Bay"],
+    description: "Wine regions and surrounding towns",
   },
   {
-    name: "Limpopo",
-    cities: ["Polokwane", "Tzaneen"],
-    description: "Comprehensive provincial knowledge",
-  },
-  {
-    name: "Mpumalanga",
-    cities: ["Nelspruit", "White River"],
-    description: "Comprehensive provincial knowledge",
-  },
-  {
-    name: "North West",
-    cities: ["Rustenburg", "Potchefstroom"],
-    description: "Comprehensive provincial knowledge",
-  },
-  {
-    name: "Northern Cape",
-    cities: ["Kimberley", "Upington"],
-    description: "Comprehensive provincial knowledge",
+    name: "Coastal Areas",
+    suburbs: ["Hout Bay", "Noordhoek", "Kommetjie", "Fish Hoek", "Simon's Town", "Muizenberg"],
+    description: "Southern coastal areas and False Bay",
   },
 ];
 
@@ -67,11 +52,19 @@ const areaCards = [
   {
     title: "Cape Town CBD & Surrounds",
     image: assetPath("/images/areas-western-cape.jpg"),
-    locations: ["City Bowl · V&A Waterfront", "Atlantic Seaboard · Sea Point", "Green Point · De Waterkant"],
+    locations: ["City Bowl · V&A Waterfront", "Gardens · Tamboerskloof", "Oranjezicht · De Waterkant"],
+  },
+  {
+    title: "Atlantic Seaboard",
+    image: assetPath("/images/areas-gauteng.jpg"),
+    locations: [
+      "Sea Point · Green Point · Mouille Point",
+      "Bantry Bay · Clifton · Camps Bay",
+    ],
   },
   {
     title: "Northern Suburbs",
-    image: assetPath("/images/areas-gauteng.jpg"),
+    image: assetPath("/images/areas-kzn.jpg"),
     locations: [
       "Blouberg · Table View · Milnerton",
       "Durbanville · Bellville · Tyger Valley",
@@ -79,12 +72,28 @@ const areaCards = [
     ],
   },
   {
-    title: "Southern Suburbs & Winelands",
-    image: assetPath("/images/areas-kzn.jpg"),
+    title: "Southern Suburbs",
+    image: assetPath("/images/areas-western-cape.jpg"),
     locations: [
       "Claremont · Newlands · Constantia",
+      "Rondebosch · Observatory · Mowbray",
+      "Wynberg · Plumstead · Diep River",
+    ],
+  },
+  {
+    title: "Winelands",
+    image: assetPath("/images/areas-gauteng.jpg"),
+    locations: [
       "Stellenbosch · Paarl · Franschhoek",
       "Somerset West · Strand · Gordon's Bay",
+    ],
+  },
+  {
+    title: "Coastal Areas",
+    image: assetPath("/images/areas-kzn.jpg"),
+    locations: [
+      "Hout Bay · Noordhoek · Kommetjie",
+      "Fish Hoek · Simon's Town · Muizenberg",
     ],
   },
 ];
@@ -98,8 +107,8 @@ export default function AreasServedPage() {
         </div>
 
         <FeatureHighlight
-          title="Liquor Licence Services Across South Africa"
-          description="While based in Blouberg, Cape Town, Beverly Jeursen provides expert liquor licence consultation services throughout South Africa. With 20+ years of experience across all 9 provinces, we understand the unique requirements and nuances of each jurisdiction."
+          title="Liquor Licence Services in Cape Town and Surrounds"
+          description="Based in Blouberg, Cape Town, Beverly Jeursen provides expert liquor licence consultation services throughout Cape Town and surrounding areas. With 20+ years of experience in the Western Cape, we understand the unique requirements and nuances of liquor licencing in this region."
           ctaText="Get Free Consultation"
           ctaHref="/contact"
           imageSrc="/images/hero-beverly.jpg"
@@ -108,9 +117,9 @@ export default function AreasServedPage() {
 
         <div className="mb-24">
           <SectionShell
-            eyebrow="Greater Cape Town"
-            title="Serving Greater Cape Town and the Western Cape"
-            description="From the City Bowl to the Winelands, we handle liquor licence applications across the region."
+            eyebrow="Cape Town Areas"
+            title="Serving Cape Town and Surrounding Areas"
+            description="From the City Bowl to the Winelands, we handle liquor licence applications across Cape Town and surrounds."
           >
             <Grid columns={3} className="mt-12">
               {areaCards.map((card) => (
@@ -138,17 +147,17 @@ export default function AreasServedPage() {
 
         <div className="mb-24">
           <SectionShell
-            eyebrow="Nationwide"
-            title="All 9 Provinces Covered"
-            description="Expert liquor licence services across South Africa with deep understanding of provincial variations."
+            eyebrow="Detailed Coverage"
+            title="Comprehensive Coverage of Cape Town Areas"
+            description="Expert liquor licence services across all major areas of Cape Town and surrounds with deep understanding of local requirements."
           >
             <Grid columns={3} className="mt-12">
-              {provinces.map((province) => (
-                <ContentBox key={province.name} title={province.name} icon={<MapPin className="h-8 w-8" />}>
-                  <p className="text-sm text-brand-cream/70 mb-4">{province.description}</p>
+              {capeTownAreas.map((area) => (
+                <ContentBox key={area.name} title={area.name} icon={<MapPin className="h-8 w-8" />}>
+                  <p className="text-sm text-brand-cream/70 mb-4">{area.description}</p>
                   <ul className="space-y-1 text-sm text-brand-cream/60">
-                    {province.cities.map((city) => (
-                      <li key={city}>• {city}</li>
+                    {area.suburbs.map((suburb) => (
+                      <li key={suburb}>• {suburb}</li>
                     ))}
                   </ul>
                 </ContentBox>
@@ -161,11 +170,11 @@ export default function AreasServedPage() {
           <div className="bg-brand-graphite/30 rounded-3xl p-8 border border-white/5">
             <div className="flex items-center gap-4 mb-6">
               <MapPin className="h-8 w-8 text-brand-sand" />
-              <h2 className="font-serif text-2xl">Why Provincial Expertise Matters</h2>
+              <h2 className="font-serif text-2xl">Why Local Expertise Matters</h2>
             </div>
             <p className="text-brand-cream/70 mb-6">
-              Each province has unique liquor legislation, application processes, and requirements. Beverly's 20+ years
-              of experience across all provinces means:
+              The Western Cape has specific liquor legislation, application processes, and requirements. Beverly&apos;s 20+ years
+              of experience in Cape Town means:
             </p>
             <ul className="space-y-3 list-none pl-0 m-0">
               <li className="flex items-start gap-3 text-brand-cream/80 text-base">
@@ -190,10 +199,24 @@ export default function AreasServedPage() {
 
         <div className="mb-24">
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <CTAButton href="/contact" variant="primary" size="lg">
+            <CTAButton
+              href="/contact"
+              variant="primary"
+              size="lg"
+              trackingAction="click_cta"
+              trackingCategory="areas_served"
+              trackingLabel="get_free_consultation"
+            >
               Get Free Consultation
             </CTAButton>
-            <CTAButton href="tel:+27823217722" variant="secondary" size="lg">
+            <CTAButton
+              href="tel:+27823217722"
+              variant="secondary"
+              size="lg"
+              trackingAction="click_phone_cta"
+              trackingCategory="areas_served"
+              trackingLabel="call_phone"
+            >
               Call +27 82 321 7722
             </CTAButton>
           </div>

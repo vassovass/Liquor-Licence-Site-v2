@@ -18,9 +18,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "BJ Liquor Licence Consultants | Cape Town & Nationwide",
+  title: "BJ Liquor Licence Consultants | Cape Town & Surrounds",
   description:
-    "Liquor licence consultant Beverly Jeursen delivers expert guidance for new applications, transfers, and events across South Africa with a 95% approval rate.",
+    "Liquor licence consultant Beverly Jeursen delivers expert guidance for new applications, transfers, and events in Cape Town and surrounding areas with a 95% approval rate.",
 };
 
 export default function RootLayout({

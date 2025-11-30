@@ -118,7 +118,7 @@ export default async function ServicePage({ params }: PageProps) {
         <div className="mb-24">
           <StatsBar
             stats={[
-              { value: "95%", label: "Approval Rate", helper: "Across all provinces" },
+              { value: "95%", label: "Approval Rate", helper: "In Cape Town" },
               { value: "20+ yrs", label: "Experience" },
               { value: "10", label: "Licence Types" },
             ]}
@@ -131,7 +131,15 @@ export default async function ServicePage({ params }: PageProps) {
 
         <div className="mb-24 mt-16">
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <CTAButton href="/contact" variant="primary" size="lg" className="w-full sm:w-auto justify-center">
+            <CTAButton
+              href="/contact"
+              variant="primary"
+              size="lg"
+              className="w-full sm:w-auto justify-center"
+              trackingAction="click_cta"
+              trackingCategory="service_page"
+              trackingLabel="get_free_consultation_top"
+            >
               Get Free Consultation
             </CTAButton>
             <CTAButton
@@ -139,6 +147,9 @@ export default async function ServicePage({ params }: PageProps) {
               variant="secondary"
               size="lg"
               className="w-full sm:w-auto justify-center"
+              trackingAction="click_whatsapp_cta"
+              trackingCategory="service_page"
+              trackingLabel="whatsapp_beverly_top"
             >
               WhatsApp Beverly
             </CTAButton>
@@ -157,10 +168,24 @@ export default async function ServicePage({ params }: PageProps) {
             your eligibility and get a clear roadmap to approval.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <CTAButton href="/contact" variant="primary" size="lg">
+            <CTAButton
+              href="/contact"
+              variant="primary"
+              size="lg"
+              trackingAction="click_cta"
+              trackingCategory="service_page"
+              trackingLabel="book_free_consultation_bottom"
+            >
               Book Free Consultation
             </CTAButton>
-            <CTAButton href="tel:+27823217722" variant="secondary" size="lg">
+            <CTAButton
+              href="tel:+27823217722"
+              variant="secondary"
+              size="lg"
+              trackingAction="click_phone_cta"
+              trackingCategory="service_page"
+              trackingLabel="call_phone_bottom"
+            >
               Call +27 82 321 7722
             </CTAButton>
           </div>

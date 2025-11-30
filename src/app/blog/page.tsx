@@ -9,7 +9,7 @@ import { getAllSlugs, getMarkdownContent } from "@/lib/markdown";
 
 export const metadata: Metadata = {
   title: "Blog | BJ Liquor Licence Consultants",
-  description: "Latest news, guides, and updates on liquor licencing in South Africa.",
+  description: "Latest news, guides, and updates on liquor licencing in Cape Town.",
 };
 
 export default function BlogIndexPage() {
@@ -31,7 +31,7 @@ export default function BlogIndexPage() {
         <SectionShell
           eyebrow="Blog"
           title="Liquor Licence Insights"
-          description="Expert advice, guides, and industry news from Beverly Jeursen. Stay informed about liquor licencing in South Africa."
+          description="Expert advice, guides, and industry news from Beverly Jeursen. Stay informed about liquor licencing in Cape Town."
         >
           {posts.length === 0 ? (
             <div className="text-center py-16">

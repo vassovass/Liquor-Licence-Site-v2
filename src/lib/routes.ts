@@ -21,7 +21,19 @@ export const primaryNav: NavItem[] = [
       { label: "View All Services", href: "/services" },
     ],
   },
-  { label: "Areas Served", href: "/areas-served" },
+  {
+    label: "Areas Served",
+    href: "/areas-served",
+    children: [
+      { label: "Cape Town CBD & Surrounds", href: "/areas-served#cape-town-cbd" },
+      { label: "Atlantic Seaboard", href: "/areas-served#atlantic-seaboard" },
+      { label: "Northern Suburbs", href: "/areas-served#northern-suburbs" },
+      { label: "Southern Suburbs", href: "/areas-served#southern-suburbs" },
+      { label: "Winelands", href: "/areas-served#winelands" },
+      { label: "Coastal Areas", href: "/areas-served#coastal-areas" },
+      { label: "View All Areas", href: "/areas-served" },
+    ],
+  },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
 ];
